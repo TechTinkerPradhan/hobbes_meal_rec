@@ -1,0 +1,7 @@
+faker
+openai
+pandas
+pydantic
+python-dotenv
+requests
+tqdm

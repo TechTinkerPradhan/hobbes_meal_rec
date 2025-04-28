@@ -1,0 +1,34 @@
+Given the following user information:
+
+- Age: {age}
+- Sex: {sex}
+- Weight: {weight_kg} kg
+- Height: {height_cm} cm
+- Activity Level: {activity_level}
+- Exercise Frequency: {exercise_frequency_per_week} days/week
+- Health Conditions: {health_conditions}
+- Health Goal: {goal_type}
+- Motivation: {motivation}
+- Dietary Restrictions: {dietary_restrictions}
+- Preferred Cuisines: {preferred_cuisines}
+
+Target Daily Intake:
+- Optimal Calories: {optimal_calories} kcal
+- Ideal Body Weight: {ibw_kg} kg
+
+Using this information:
+- Estimate appropriate daily macronutrient targets (protein, carbs, fats).
+- Then create a full day's meal plan: Breakfast, Morning Snack, Lunch, Evening Snack, Dinner.
+
+Each meal must include:
+- Meal Name
+- Ingredients
+- Macros (Calories, Protein g, Carbs g, Fats g)
+- Short Rationale
+
+Format each meal clearly under headings:
+Breakfast:
+Morning Snack:
+Lunch:
+Evening Snack:
+Dinner:

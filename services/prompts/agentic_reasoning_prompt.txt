@@ -1,0 +1,17 @@
+You are a health coach. Given the following user profile:
+
+- Age: {age}
+- Sex: {sex}
+- Weight: {weight_kg} kg
+- Height: {height_cm} cm
+- Activity Level: {activity_level}
+- Exercise Frequency: {exercise_frequency_per_week} days/week
+- Health Conditions: {health_conditions}
+- Health Goal: {goal_type}
+- Motivation: {motivation}
+
+Estimate:
+- Optimal daily calories
+- Target grams for Protein, Carbs, and Fats
+
+Provide your reasoning briefly and then list the estimated targets clearly.

@@ -1,0 +1,52 @@
+user_id,mode,meal_type,meal_name,calories,protein_g,carbs_g,fats_g,rationale
+66,guided,unknown,Greek Yogurt Parfait with Gluten-Free Granola,500.0,30.0,65.0,15.0,"This breakfast is high in protein and healthy fats, which will provide sustained energy for an active day."
+66,guided,unknown,Medjool Dates and Almond Butter,300.0,8.0,40.0,14.0,"This snack is rich in healthy fats and protein, which will keep you feeling full and energized until lunch."
+66,guided,unknown,Grilled Salmon Salad,700.0,50.0,20.0,30.0,"This lunch is high in Omega-3 fatty acids, which are beneficial for heart health and longevity. The salad greens and veggies provide a good source of fiber and nutrients."
+66,guided,unknown,Hummus and Carrot Sticks,200.0,10.0,25.0,8.0,"Hummus is a good source of plant protein and fiber, while carrot sticks are low in calories and high in vitamins and minerals."
+66,guided,unknown,Quinoa Stuffed Bell Peppers,943.52,100.26,147.4,6.43,Quinoa is a complete protein and a great source of fiber. Feta cheese adds a tanginess that pairs well with the sweetness of the bell pepper. This meal is high in protein and fits well within the user's preferred Mediterranean cuisine.
+354,guided,unknown,Paleo Mediterranean Omelette,450.0,32.0,20.0,28.0,"This breakfast is high in protein and includes vegetables, making it a balanced start to the day that falls within the paleo diet."
+354,guided,unknown,Tropical Paleo Smoothie,420.0,30.0,60.0,10.0,This snack is a delicious way to maintain energy levels and meet protein targets. It's also paleo-friendly and full of vitamins.
+354,guided,unknown,Grilled Salmon Salad,800.0,60.0,30.0,35.0,"This lunch is high in protein and healthy fats, which are essential for a very active lifestyle. It's also paleo-friendly and includes a variety of vegetables for balanced nutrition."
+354,guided,unknown,Almond and Fruit Bowl,400.0,10.0,45.0,20.0,"This snack provides a good balance of protein, carbs, and fats. It's also rich in fiber and vitamins, which are essential for optimal health."
+354,guided,unknown,Mexican Style Paleo Chicken Tacos,892.0,80.0,178.0,9.0,"This dinner is high in protein and includes vegetables, making it a balanced end to the day that falls within the paleo diet."
+906,guided,unknown,Gluten-free Shakshuka,500.0,30.0,40.0,20.0,Shakshuka is a popular Middle Eastern dish. This breakfast is high in protein and provides a good start to the day.
+906,guided,unknown,Gluten-free Hummus and Carrot Sticks,500.0,30.0,40.0,20.0,This snack provides a healthy balance of protein and carbs to maintain energy levels.
+906,guided,unknown,Gluten-free Chicken Shawarma Salad,500.0,30.0,40.0,20.0,"This lunch is high in protein and low in carbs, perfect for a weight loss diet."
+906,guided,unknown,Gluten-free Rice Cake with Almond Butter,500.0,30.0,40.0,20.0,
+906,guided,unknown,Gluten-free Grilled Fish with Quinoa and Steamed Vegetables,500.0,30.0,40.0,20.0,"This dinner is high in protein and carbs, providing enough energy for the rest of the night and aiding in muscle recovery during sleep."
+939,guided,unknown,Vegetable Omelette with Whole Wheat Toast,350.0,18.0,33.0,15.0,"This breakfast is high in protein to help start the day strong, the whole wheat toast provides complex carbs for sustained energy, and the vegetables add fiber and vitamins."
+939,guided,unknown,Apple and Almonds,150.0,4.0,23.0,7.0,This snack provides a good balance of carbs for energy and protein and healthy fats from the almonds.
+939,guided,unknown,Grilled Chicken Salad with Italian Dressing,350.0,55.0,10.0,10.0,"A protein-packed lunch with the chicken, while the mixed greens and vegetables provide fiber and essential nutrients. The Italian dressing adds flavor without too many extra calories."
+939,guided,unknown,Greek Yogurt with Berries and Honey,150.0,20.0,18.0,0.0,"This snack provides a good source of protein from the Greek yogurt, while the berries add fiber, vitamins, and antioxidants. The honey adds a touch of natural sweetness."
+939,guided,unknown,Indian Style Chicken Curry with Brown Rice,773.2,36.0,115.0,17.0,"This dinner is rich in protein from the chicken, the brown rice provides complex carbs for sustained energy, and curry sauce adds flavor and a little fat for satiety. The vegetables add fiber and vitamins."
+1274,guided,unknown,Paleo Egg and Avocado Breakfast Wrap,425.0,18.0,20.0,30.0,This meal includes healthy fats and protein to give energy for the day. The avocado also has healthy monounsaturated fats which are good for heart health.
+1274,guided,unknown,Almond and Fruit Salad,275.0,7.0,25.0,17.0,This snack includes fruit for natural sugars and almonds for protein. It's a light snack to keep you going until lunch.
+1274,guided,unknown,Grilled Chicken Salad,350.0,55.0,17.0,11.0,"This meal is high in protein and low in carbs, which aligns with the Paleo diet. It also includes a variety of vegetables for fiber and nutrition."
+1274,guided,unknown,Berry Smoothie,200.0,20.0,20.0,5.0,This snack is a quick and easy way to increase protein intake. It's also refreshing and light.
+1274,guided,unknown,Paleo Shrimp Stir Fry,327.0,18.0,25.0,16.0,This meal is high in protein and includes a variety of vegetables. It's a tasty way to end the day and stay within calorie limits.
+1290,guided,unknown,Scrambled Eggs with Sausage and Toast,528.0,32.0,38.0,28.0,This high protein breakfast will provide sustained energy and keep you satiated until your morning snack.
+1290,guided,unknown,Greek Yogurt with Berries and Nuts,340.0,26.0,34.0,10.0,"This snack provides protein and fiber to keep you full, while the berries provide a natural sweetness."
+1290,guided,unknown,Grilled Chicken Salad,430.0,56.0,12.0,18.0,This light but protein-rich lunch will keep you full and provide a variety of nutrients from the mixed salad.
+1290,guided,unknown,Protein Shake and Banana,290.0,34.0,44.0,5.0,This snack is a quick and easy way to boost your protein intake. The banana provides additional carbs for energy.
+1290,guided,unknown,Salmon with Quinoa and Steamed Vegetables,800.0,70.0,78.0,22.0,"This balanced dinner provides high-quality protein, complex carbs, and a variety of nutrients."
+1324,guided,unknown,Protein Pancakes with Berries,900.0,45.0,100.0,30.0,"This breakfast is high in protein and carbs to kickstart the user's day. The Greek yogurt and eggs provide a good source of protein, while the oats and berries offer healthy carbs."
+1324,guided,unknown,Protein Shake and Almond,300.0,35.0,10.0,12.0,"This snack is designed to keep the user's protein intake up in between meals. The almond milk and protein powder provide the protein, while the almonds offer healthy fats."
+1324,guided,unknown,Chicken Biryani,800.0,60.0,100.0,20.0,"This lunch is a balanced meal with a good mix of protein, carbs, and fats. The chicken provides the protein, the rice provides the carbs, and the oil provides the fats."
+1324,guided,unknown,Greek Yogurt with Mixed Nuts,400.0,30.0,20.0,20.0,"This snack is designed to keep the user's protein intake up in between meals. The Greek yogurt provides the protein, while the mixed nuts offer healthy fats and a small amount of carbs."
+1324,guided,unknown,Grilled Salmon with Quinoa and Veggies,605.63,92.99,70.56,1.49,"This dinner is high in protein and has a good balance of carbs and fats. The salmon provides the protein, the quinoa provides the carbs, and the oil provides the fats."
+1334,guided,unknown,Scrambled Tofu with Avocado on Toast,400.0,24.0,46.0,15.0,This meal is packed with protein from the tofu and healthy fats from the avocado. The whole grain bread provides complex carbs for sustained energy.
+1334,guided,unknown,Fruit & Nut Mix,210.0,6.0,22.0,12.0,"This snack is easy to prepare and carry, and provides a good balance of protein, carbs and healthy fats."
+1334,guided,unknown,Thai Tofu Green Curry with Brown Rice,600.0,28.0,70.0,22.0,This meal is rich in protein and also provides a good amount of fiber. The curry paste and coconut milk make it flavorful while keeping it healthy.
+1334,guided,unknown,Greek Yogurt with Berries,200.0,18.0,26.0,2.0,The Greek yogurt provides a good amount of protein while the berries and honey give a natural sweetness and antioxidants.
+1334,guided,unknown,Japanese Soba Noodle Soup with Tofu,500.0,30.0,70.0,10.0,"This meal is rich in protein and carbs for recovery and energy for the next day. The broth and miso add a rich, umami flavor."
+1334,guided,unknown,Mochi with Red Bean Paste,694.48,89.34,59.0,21.35,This dessert is a sweet treat that also provides protein and carbs. The red bean paste adds a unique flavor and additional fiber.
+1732,guided,unknown,Low FODMAP Scrambled Eggs and Gluten-Free Toast,500.0,30.0,40.0,20.0,
+1732,guided,unknown,Low FODMAP Protein Smoothie,500.0,30.0,40.0,20.0,
+1732,guided,unknown,Low FODMAP Grilled Chicken Salad with Quinoa,500.0,30.0,40.0,20.0,
+1732,guided,unknown,Low FODMAP Greek Yogurt with Blueberries and Almonds,500.0,30.0,40.0,20.0,
+1732,guided,unknown,Low FODMAP Sushi Roll and Miso Soup,500.0,30.0,40.0,20.0,
+1861,guided,unknown,Scrambled Eggs with Whole Wheat Toast and Greek Yogurt,365.0,23.0,38.0,12.0,"This meal is high in protein, which can help to keep this user feeling full and satisfied. The whole wheat bread provides complex carbohydrates for energy."
+1861,guided,unknown,Apple with Almond Butter,281.0,7.0,30.0,16.0,"The apple provides fiber and natural sugars for energy, while the almond butter adds healthy fats and protein."
+1861,guided,unknown,Grilled Chicken Salad,345.0,35.0,10.0,18.0,"This meal is high in protein and packed with vegetables, making it a nutritious choice for lunch. The olive oil dressing adds healthy fats."
+1861,guided,unknown,Greek Yogurt with Berries and Nuts,275.0,18.0,20.0,14.0,This snack is high in protein and provides antioxidants from the berries. The nuts add healthy fats and a bit of crunch.
+1861,guided,unknown,Grilled Salmon with Quinoa and Steamed Vegetables,477.0,42.0,35.0,19.0,"This dinner is balanced with protein from the salmon, complex carbohydrates from the quinoa, and vitamins and minerals from the vegetables."

@@ -1,0 +1,51 @@
+user_id,mode,meal_type,meal_name,calories,protein_g,carbs_g,fats_g,rationale
+66,partial_guided,unknown,Mediterranean Omelette,341.0,22.0,10.0,25.0,This high-protein breakfast will help start the day with energy and keep her satiated until the next meal.
+66,partial_guided,unknown,Fruit and Nut Mix,340.0,7.0,43.0,17.0,The snack is a quick source of energy. Almonds provide healthy fats and figs provide fiber and natural sugars.
+66,partial_guided,unknown,Greek Salad with Grilled Chicken,400.0,38.0,10.0,23.0,"This is a high protein, low carb meal that will provide sustained energy and essential nutrients for the afternoon."
+66,partial_guided,unknown,Greek Yogurt with Honey and Berries,225.0,20.0,30.0,3.0,The snack is high in protein and includes antioxidants from the berries. It's also a good source of probiotics for gut health.
+66,partial_guided,unknown,Grilled Salmon with Quinoa and Steamed Broccoli,605.0,42.0,45.0,27.0,"This meal is balanced with lean protein from salmon, complex carbs from quinoa, and fiber from broccoli. It's also rich in omega-3 fatty acids which are good for heart health."
+354,partial_guided,unknown,Paleo Egg Muffins with Veggies,600.0,30.0,18.0,46.0,"This meal is high in protein and healthy fats to start the day, and it includes a variety of vegetables to provide vitamins and minerals."
+354,partial_guided,unknown,Almond-Cocoa Protein Smoothie,350.0,25.0,25.0,19.0,"This smoothie provides a good balance of macronutrients, and it's easy to consume on-the-go."
+354,partial_guided,unknown,Chicken Salad with Avocado and Tomatoes,650.0,40.0,25.0,45.0,"This salad is high in protein and healthy fats, and it includes a variety of vegetables to provide fiber and nutrients."
+354,partial_guided,unknown,Apple with Almond Butter,300.0,8.0,30.0,18.0,"This snack provides a good balance of macronutrients, and the almond butter adds a source of healthy fats."
+354,partial_guided,unknown,Grilled Salmon with Broccoli and Sweet Potato,1062.15,47.0,272.0,2.0,"This meal is high in protein and healthy fats from the salmon and olive oil. The sweet potato provides complex carbohydrates, and the broccoli adds fiber and nutrients."
+906,partial_guided,unknown,Middle Eastern Shakshuka,550.0,28.0,40.0,30.0,"Shakshuka is a gluten-free Middle Eastern dish that's high in protein and healthy fats, providing a satisfying start to the day."
+906,partial_guided,unknown,Greek Yogurt with Almonds,200.0,20.0,10.0,10.0,This snack is high in protein to keep you full and satisfied until lunch.
+906,partial_guided,unknown,Gluten-free Falafel Salad,400.0,14.0,50.0,16.0,This salad is packed with veggies and gluten-free falafel for a nutritious and flavorful lunch.
+906,partial_guided,unknown,Hummus with Carrots,150.0,4.0,20.0,6.0,Hummus and carrots are a healthy snack that provides fiber and protein.
+906,partial_guided,unknown,Grilled Chicken with Quinoa,600.0,60.0,50.0,20.0,"This dinner is high in protein and carbs to replenish energy after a day of activities, and it includes a healthy dose of veggies."
+939,partial_guided,unknown,Veggie Scramble with Whole Grain Toast,249.0,12.0,16.0,13.0,"This breakfast is rich in protein, fiber, and healthy fats to keep you satiated throughout the morning."
+939,partial_guided,unknown,Apple and Almond Butter,188.0,4.0,23.0,10.0,The combination of fruit and nut butter provides a good balance of carbohydrates and healthy fats for sustained energy.
+939,partial_guided,unknown,Chickpea Salad with Whole Wheat Pita,405.0,15.0,60.0,12.0,"This lunch is rich in plant-based protein, fiber, and healthy fats. The carbohydrates from the pita will provide energy for the rest of the day."
+939,partial_guided,unknown,Greek Yogurt with Berries,150.0,20.0,14.0,0.0,"Greek yogurt provides a good source of protein, and the berries add some natural sweetness and fiber."
+939,partial_guided,unknown,Grilled Chicken with Quinoa and Steamed Vegetables,345.0,35.0,33.0,7.0,This dinner is high in protein and includes complex carbohydrates from quinoa and a variety of vitamins and minerals from the mixed vegetables.
+1274,partial_guided,unknown,Scrambled Eggs with Avocado and Berries,300.0,14.0,15.0,20.0,"This meal provides a good balance of protein, healthy fats, and low-glycemic index carbs to start the day."
+1274,partial_guided,unknown,Almond and Fruit Salad,200.0,5.0,20.0,15.0,A light snack full of healthy fats and fiber to keep the user satiated until lunch.
+1274,partial_guided,unknown,Grilled Chicken Salad,400.0,40.0,10.0,23.0,High-protein lunch with lean meats and healthy fats to maintain energy levels.
+1274,partial_guided,unknown,Greek Yogurt with Berries,150.0,20.0,10.0,4.0,"High in protein and low in fat, this snack will keep you full and satisfied until dinner."
+1274,partial_guided,unknown,Grilled Salmon with Steamed Vegetables,500.0,37.0,15.0,30.0,"Salmon is high in protein and omega-3 fatty acids, which are good for heart health. The steamed vegetables provide necessary vitamins and minerals."
+1290,partial_guided,unknown,** Scrambled eggs with whole grain toast and avocado,358.0,15.0,26.0,23.0,"** This meal provides a good balance of protein, carbs and fats. Eggs are a great source of protein, while the whole grain bread offers complex carbs for sustained energy. Avocado adds healthy fats."
+1290,partial_guided,unknown,** Greek yogurt with mixed berries,150.0,20.0,18.0,0.0,"** Greek yogurt is high in protein and low in fat, while berries add fiber and antioxidants."
+1290,partial_guided,unknown,** Grilled chicken salad,250.0,30.0,15.0,7.0,"** Grilled chicken breast provides lean protein, while the salad offers a variety of vitamins and minerals. The low-fat dressing adds flavor without too many extra calories."
+1290,partial_guided,unknown,** Apple and almond butter,282.0,8.0,34.0,16.0,"** An apple provides fiber and carbs, while almond butter adds protein and healthy fats."
+1290,partial_guided,unknown,** Baked salmon with quinoa and steamed broccoli,460.0,40.0,30.0,20.0,"** Salmon is rich in protein and omega-3 fatty acids. Quinoa is a good source of carbs and fiber, while broccoli adds vitamins and minerals."
+1324,partial_guided,unknown,Avocado Bacon and Eggs,520.0,18.0,12.0,46.0,"This meal is high in fats and protein, perfect for starting the day and keeping the user's diet on track for their keto restrictions."
+1324,partial_guided,unknown,Keto Smoothie,270.0,27.0,8.0,16.0,"This snack is high in protein and healthy fats, and very low in carbs. Perfect for a mid-morning energy boost."
+1324,partial_guided,unknown,Chicken Tikka Salad,500.0,52.0,8.0,30.0,"This meal is packed with protein and healthy fats, with a low carb content. It's also in line with the user's preference for Indian cuisine."
+1324,partial_guided,unknown,Almond Butter Celery Sticks,210.0,6.0,6.0,18.0,This snack is a good source of healthy fats and has a moderate amount of protein.
+1324,partial_guided,unknown,Thai Green Curry with Tofu,1505.0,23.0,4.0,158.0,"This meal aligns with the user's preference for Thai cuisine, is high in fats, and low in carbs, perfect for a keto-friendly dinner."
+1334,partial_guided,unknown,Protein Smoothie Bowl,485.0,30.0,60.0,15.0,Starting the day with a high protein smoothie bowl will provide the user with energy and help to kickstart their metabolism.
+1334,partial_guided,unknown,Greek Yogurt with Berries and Nuts,320.0,20.0,20.0,16.0,"Greek yogurt provides a good source of protein, while the berries and nuts add some healthy carbohydrates and fats."
+1334,partial_guided,unknown,Chicken Teriyaki Stir Fry,600.0,40.0,70.0,10.0,"This meal is balanced with proteins from chicken, carbohydrates from brown rice, and fats from the stir-fry sauce."
+1334,partial_guided,unknown,Rice Cakes with Peanut Butter,200.0,8.0,20.0,10.0,"This snack is a good source of healthy fats and protein, which can help to keep the user satisfied until dinner."
+1334,partial_guided,unknown,Salmon Sushi Roll,999.48,64.8,165.6,21.7,This meal is rich in omega-3 fatty acids from salmon and healthy fats from avocado. The sushi rice will provide a source of carbohydrates.
+1732,partial_guided,unknown,Protein Pancakes,532.0,30.0,80.0,13.0,This breakfast is high in protein and carbs to start the day energized and support muscle growth.
+1732,partial_guided,unknown,Fruit and Nut Snack,235.0,6.0,24.0,14.0,"This snack provides a good balance of carbs and fats, with a moderate amount of protein."
+1732,partial_guided,unknown,Chicken and Veggie Stir Fry,553.0,40.0,60.0,18.0,"This lunch is high in protein and carbs, and includes various vegetables to provide fiber and vitamins."
+1732,partial_guided,unknown,Greek Yogurt with Berries,154.0,20.0,16.0,2.0,This snack is high in protein and includes fruits for added vitamins and fiber.
+1732,partial_guided,unknown,Salmon with Quinoa Salad,593.0,47.0,44.0,25.0,"This dinner is high in protein and healthy fats from the salmon, and includes quinoa and mixed salad for a balanced meal."
+1861,partial_guided,unknown,Scrambled Tofu with Veggies,250.0,12.0,20.0,12.0,"This meal is high in protein and low in carbs, which is good for a person with diabetes."
+1861,partial_guided,unknown,Banana and Almond Butter Smoothie,300.0,5.0,45.0,15.0,"This snack provides a good balance of protein, carbs, and fats, providing energy for the day."
+1861,partial_guided,unknown,Thai Basil Chicken with Brown Rice,550.0,35.0,60.0,20.0,"This meal is high in protein and carbs, which can provide energy for the rest of the day."
+1861,partial_guided,unknown,Greek Yogurt with Berries and Nuts,200.0,15.0,15.0,10.0,"This snack is high in protein and low in carbs, which is beneficial for people with diabetes."
+1861,partial_guided,unknown,Grilled Salmon with Quinoa and Asparagus,650.0,45.0,50.0,25.0,"This meal is high in protein and omega-3 fatty acids, which are beneficial for heart health and blood sugar control."

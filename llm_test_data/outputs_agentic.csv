@@ -1,0 +1,52 @@
+user_id,mode,meal_type,meal_name,calories,protein_g,carbs_g,fats_g,rationale
+66,agentic,unknown,Mediterranean Egg White Scramble,350.0,18.0,15.0,24.0,"This protein-rich breakfast is a great start to the day. Egg whites provide lean protein, while avocado adds healthy fats. The vegetables provide fiber and vitamins."
+66,agentic,unknown,Greek Yogurt with Honey and Almonds,330.0,20.0,23.0,16.0,Greek yogurt is a good source of protein and calcium. Adding honey and almonds provides energy-boosting carbohydrates and healthy fats.
+66,agentic,unknown,Grilled Chicken Salad with Quinoa,600.0,42.0,58.0,22.0,Grilled chicken is another good source of lean protein. Quinoa is a gluten-free grain that is high in fiber and protein. The vegetables provide additional fiber and nutrients.
+66,agentic,unknown,Hummus and Veggie Sticks,200.0,10.0,25.0,8.0,Hummus is a great source of protein and fiber. The fresh vegetables are a refreshing and healthy snack that is low in calories but high in nutrients.
+66,agentic,unknown,Baked Salmon with Sweet Potatoes and Asparagus,520.0,40.0,45.0,17.0,"Salmon is rich in omega-3 fatty acids, which are good for heart health. Sweet potatoes are a good source of fiber and complex carbohydrates, while asparagus provides a wide range of nutrients."
+354,agentic,unknown,Paleo Avocado-Egg Bake,320.0,14.0,17.0,25.0,"This breakfast is high in healthy fats and protein, helping to start the day with sustained energy."
+354,agentic,unknown,Paleo Nut Mix,350.0,10.0,20.0,28.0,"This snack is rich in protein and healthy fats, providing a quick energy boost and promoting satiety until lunch."
+354,agentic,unknown,Paleo Grilled Chicken Salad,350.0,35.0,8.0,20.0,"This lunch is a high-protein, low-carb meal, promoting muscle recovery and growth without spiking blood sugar levels."
+354,agentic,unknown,Paleo Banana Muffin,200.0,8.0,30.0,10.0,"This snack provides a good balance of carbohydrates and protein, providing energy for evening activities and promoting muscle recovery."
+354,agentic,unknown,Paleo Mexican Shrimp Skillet,400.0,40.0,20.0,15.0,"This dinner is high in protein and moderate in carbs and fats, making it a balanced meal to end the day. The Mexican spices and flavors make it a tasty option for the client's preference."
+906,agentic,unknown,Gluten-Free Shakshuka,280.0,14.0,16.0,18.0,"A traditional Middle Eastern dish, Shakshuka is a flavorful and protein-packed start to the day."
+906,agentic,unknown,Almond and Date Energy Balls,2.0,200.0,5.0,26.0,"These energy balls are easy to make and carry, and provide a healthy balance of protein, carbs, and fats."
+906,agentic,unknown,Grilled Chicken with Quinoa Salad,400.0,38.0,30.0,14.0,"Grilled chicken is a lean source of protein, while quinoa provides a gluten-free source of carbs."
+906,agentic,unknown,Hummus and Carrot Sticks,100.0,3.0,12.0,5.0,"Hummus is a traditional Middle Eastern dip that provides a balance of protein and fats, and carrot sticks add fiber and crunch."
+906,agentic,unknown,Gluten-Free Falafel with Tahini Sauce,550.0,24.0,58.0,28.0,"Falafel is a classic Middle Eastern dish, and this version is gluten-free. The chickpeas in falafel and tahini sauce provide protein and healthy fats."
+939,agentic,unknown,Scrambled Eggs with Whole Grain Toast,240.0,12.0,15.0,15.0,"This is a balanced meal with good amounts of protein, carbs, and healthy fats to start the day."
+939,agentic,unknown,Greek Yogurt with Mixed Berries,150.0,20.0,15.0,0.0,Greek yogurt is high in protein and berries add fiber and vitamins. This snack will keep you full until lunch.
+939,agentic,unknown,Grilled Chicken Salad,300.0,30.0,10.0,15.0,"This is a high protein, low carb meal that is also very filling. It also includes a good amount of healthy fats from the olive oil."
+939,agentic,unknown,Apple with Almond Butter,200.0,4.0,29.0,10.0,"The apple provides a nice crunch and natural sweetness, while the almond butter adds protein and healthy fats."
+939,agentic,unknown,Tofu Stir-Fry,360.0,17.0,56.0,11.0,"This is a balanced meal with a good mix of protein, carbs, and fats. The tofu is a great source of plant protein and the rice provides energy-giving carbs."
+1274,agentic,unknown,Paleo Mexican Breakfast Bowl,400.0,20.0,40.0,18.0,"This breakfast is rich in protein from eggs and black beans, with healthy fats from avocado and complex carbs from sweet potato."
+1274,agentic,unknown,Paleo Almond Joy Smoothie,300.0,8.0,30.0,18.0,"This snack is a good source of healthy fats and carbs, with almond butter providing a good dose of protein."
+1274,agentic,unknown,Paleo Middle Eastern Chicken Salad,400.0,40.0,10.0,23.0,"This salad is packed with lean protein from chicken, with healthy fats from olive oil and a mix of veggies for carbs."
+1274,agentic,unknown,Paleo Nut and Fruit Mix,200.0,5.0,25.0,11.0,"This snack provides a good balance of proteins, fats, and carbs, with the added benefit of fiber from the dried fruits."
+1274,agentic,unknown,Paleo Mexican Shrimp Stir Fry,320.0,48.0,15.0,8.0,"This dinner is high in protein from shrimp, with healthy fats from olive oil and a mix of veggies for carbs. The spices add a traditional Mexican flavor."
+1290,agentic,unknown,Scrambled Eggs with Avocado Toast,450.0,20.0,30.0,30.0,"This meal provides a good balance of protein, carbs, and healthy fats to start the day."
+1290,agentic,unknown,Greek Yogurt with Berries,150.0,20.0,20.0,0.0,Greek yogurt is high in protein which can help keep you full until lunch. Berries add some carbs and fiber.
+1290,agentic,unknown,Chicken Salad,350.0,40.0,15.0,10.0,"The chicken provides a good source of lean protein, while the salad provides necessary vitamins and fiber."
+1290,agentic,unknown,Apple with Almond Butter,250.0,7.0,30.0,15.0,"The apple provides fiber and carbs, while the almond butter provides healthy fats and a bit of protein."
+1290,agentic,unknown,Salmon with Quinoa and Broccoli,500.0,40.0,45.0,20.0,"Salmon is high in protein and omega-3 fatty acids. Quinoa is a great source of carbs and fiber, and broccoli adds a serving of veggies."
+1290,agentic,unknown,Dark Chocolate,170.0,2.0,13.0,12.0,Dark chocolate can serve as a healthy dessert option that provides some fats and a little bit of protein.
+1324,agentic,unknown,Scrambled Eggs with Avocado and Spinach,500.0,21.0,12.0,42.0,"This meal is high in healthy fats and protein, which is perfect for starting the day and keeping you full for longer. Avocado and spinach add fiber and essential vitamins."
+1324,agentic,unknown,Protein Shake with Almond Milk,300.0,48.0,6.0,8.0,"This snack is high in protein and low in carbs, which aligns with the keto diet. It's also quick and easy to make."
+1324,agentic,unknown,Chicken Salad with Olive Oil,500.0,56.0,10.0,28.0,"This meal is high in protein and healthy fats, and low in carbs. The mixed greens provide fiber and essential vitamins."
+1324,agentic,unknown,Almonds and Cheese,300.0,16.0,6.0,25.0,This snack is high in healthy fats and protein. It's also quick and easy to make.
+1324,agentic,unknown,Grilled Salmon with Cauliflower Rice,600.0,50.0,8.0,42.0,"This meal is high in protein and healthy fats, and low in carbs. The cauliflower rice is a great low-carb substitute for regular rice."
+1334,agentic,unknown,Scrambled Eggs with Avocado Toast,450.0,20.0,40.0,25.0,This breakfast is high in protein and healthy fats to keep you energized and satiated throughout the morning.
+1334,agentic,unknown,Greek Yogurt with Berries and Honey,250.0,20.0,35.0,5.0,Greek yogurt is a great source of protein and the berries provide some fiber and antioxidants. The honey adds a little sweetness.
+1334,agentic,unknown,Chicken Pad Thai,600.0,35.0,75.0,20.0,"This flavorful Thai dish provides a good balance of protein, carbs, and fats."
+1334,agentic,unknown,Edamame,190.0,17.0,15.0,8.0,"Edamame is a good source of plant-based protein and fiber. It's also very satisfying, making it a great snack option."
+1334,agentic,unknown,Salmon Teriyaki with Brown Rice,588.0,42.0,95.0,11.0,This Japanese-inspired dinner is rich in omega-3 fatty acids from the salmon and provides a good amount of protein. The brown rice is a good source of complex carbs for sustained energy.
+1732,agentic,unknown,Protein Pancakes with Berries and Greek Yogurt,561.0,55.0,65.0,9.0,"This meal is high in protein, thanks to the Greek yogurt and protein powder, and provides a good amount of healthy carbs from the oats and berries."
+1732,agentic,unknown,Tuna and Rice Cake Snack,325.0,32.0,30.0,7.0,"This snack is rich in protein from the tuna, while the rice cakes provide some light carbs. The mayonnaise adds a bit of healthy fats."
+1732,agentic,unknown,Grilled Chicken Salad with Quinoa,590.0,58.0,58.0,13.0,"The chicken provides a good source of lean protein, while the quinoa offers slow-releasing carbs. The salad adds fiber and the olive oil provides healthy fats."
+1732,agentic,unknown,Greek Yogurt with Almonds and Honey,500.0,30.0,40.0,20.0,
+1732,agentic,unknown,Salmon Teriyaki with Brown Rice,990.0,67.0,109.0,14.0,"The salmon provides a high amount of protein and healthy fats, while the brown rice is a good source of complex carbs. The teriyaki sauce adds some extra flavor while fitting within the preferred cuisines."
+1861,agentic,unknown,Protein Packed Smoothie,300.0,30.0,30.0,8.0,"This breakfast is easy to prepare and filled with protein and fiber to keep you full until your next meal, and the berries provide low-glycemic carbs."
+1861,agentic,unknown,Nutty Apple,250.0,7.0,30.0,14.0,"The apple provides fiber and the almond butter healthy fats and protein, which will help manage blood sugar levels."
+1861,agentic,unknown,Chicken Satay Salad,450.0,40.0,20.0,20.0,This Thai-inspired dish is high in protein and contains a good balance of carbs and fats. The vegetables provide low-glycemic carbs.
+1861,agentic,unknown,Greek Yogurt with Berries,200.0,20.0,25.0,2.0,"This snack is high in protein and the berries provide antioxidants and fiber, which are beneficial for managing diabetes."
+1861,agentic,unknown,Quinoa & Grilled Salmon,600.0,50.0,60.0,25.0,This dinner is high in protein and contains complex carbohydrates for longer satiety. The omega-3 fatty acids in salmon are beneficial for heart health.

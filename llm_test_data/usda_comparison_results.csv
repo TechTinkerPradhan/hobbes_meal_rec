@@ -1,0 +1,184 @@
+calories_error_pct,protein_g_error_pct,carbs_g_error_pct,fats_g_error_pct,user_id,meal_name,method
+380.77,-60.66,304.23,148.34,66,Greek Yogurt Parfait with Gluten-Free Granola,guided
+-67.25,-65.47,-57.27,-73.44,66,Medjool Dates and Almond Butter,guided
+228.64,362.11,632.6,72.81,66,Grilled Salmon Salad,guided
+-44.75,20.48,-18.57,-72.03,66,Hummus and Carrot Sticks,guided
+478.85,53803.23,777.38,-28.56,66,Quinoa Stuffed Bell Peppers,guided
+703.57,1900.0,78.57,3400.0,354,Paleo Mediterranean Omelette,guided
+,,18081.82,-88.93,354,Tropical Paleo Smoothie,guided
+275.59,454.53,998.9,101.61,354,Grilled Salmon Salad,guided
+-59.64,-51.62,-60.39,-62.06,354,Almond and Fruit Bowl,guided
+643.33,567.78,7077.42,27.48,354,Mexican Style Paleo Chicken Tacos,guided
+792.86,1775.0,257.14,2400.0,906,Gluten-free Shakshuka,guided
+38.12,261.45,30.29,-30.07,906,Gluten-free Hummus and Carrot Sticks,guided
+150.0,157.73,439.81,47.93,906,Gluten-free Chicken Shawarma Salad,guided
+-51.6,8.03,-60.86,-64.92,906,Gluten-free Rice Cake with Almond Butter,guided
+42.05,14.72,-10.41,176.24,906,Gluten-free Grilled Fish with Quinoa and Steamed Vegetables,guided
+-10.03,62.16,-50.52,168.1,939,Vegetable Omelette with Whole Wheat Toast,guided
+-76.27,-80.0,15.0,-86.06,939,Apple and Almonds,guided
+141.24,-97.26,2.71,-53.49,939,Grilled Chicken Salad with Italian Dressing,guided
+-71.1,389.0,-78.17,-100.0,939,Greek Yogurt with Berries and Honey,guided
+158.6,271.9,165.34,83.19,939,Indian Style Chicken Curry with Brown Rice,guided
+-4.47,685.68,149.69,-44.48,1274,Paleo Egg and Avocado Breakfast Wrap,guided
+-70.78,-66.13,-74.65,-67.75,1274,Almond and Fruit Salad,guided
+421586.75,-97.26,30257.14,7.84,1274,Grilled Chicken Salad,guided
+127.27,99900.0,-56.52,-54.13,1274,Berry Smoothie,guided
+360.56,795.52,159.07,463.38,1274,Paleo Shrimp Stir Fry,guided
+-30.16,-6.16,-57.88,3.9,1290,Scrambled Eggs with Sausage and Toast,guided
+-63.0,7.93,-69.77,-78.74,1290,Greek Yogurt with Berries and Nuts,guided
+517972.29,-97.21,21328.57,76.47,1290,Grilled Chicken Salad,guided
+-26.95,-77.85,3.29,-33.51,1290,Protein Shake and Banana,guided
+98.02,140.63,232.76,13.11,1290,Salmon with Quinoa and Steamed Vegetables,guided
+267.35,209.07,168.31,745.07,1324,Protein Pancakes with Berries,guided
+-58.68,-78.35,-56.73,-77.77,1324,Protein Shake and Almond,guided
+390.8,898.34,304.86,335.73,1324,Chicken Biryani,guided
+-63.64,49.78,-77.78,-75.0,1324,Greek Yogurt with Mixed Nuts,guided
+39.55,174.15,36.53,-85.73,1324,Grilled Salmon with Quinoa and Veggies,guided
+-51.04,71.43,-45.21,-67.76,1334,Scrambled Tofu with Avocado on Toast,guided
+-57.92,-61.59,-64.5,-50.82,1334,Fruit & Nut Mix,guided
+112.01,557.28,-3.85,136.56,1334,Thai Tofu Green Curry with Brown Rice,guided
+-61.46,340.1,-68.47,-90.17,1334,Greek Yogurt with Berries,guided
+,-92.75,900.0,,1334,Japanese Soba Noodle Soup with Tofu,guided
+55.02,771.61,-42.09,4442.55,1334,Mochi with Red Bean Paste,guided
+28.21,147.93,-47.85,525.0,1732,Low FODMAP Scrambled Eggs and Gluten-Free Toast,guided
+481.4,300.53,226.8,2464.1,1732,Low FODMAP Protein Smoothie,guided
+366.93,-98.51,99.44,66.81,1732,Low FODMAP Grilled Chicken Salad with Quinoa,guided
+-30.07,0.6,-6.72,-61.57,1732,Low FODMAP Greek Yogurt with Blueberries and Almonds,guided
+316.67,519.83,95.41,1260.54,1732,Low FODMAP Sushi Roll and Miso Soup,guided
+-62.33,-10.61,-72.53,-62.51,1861,Scrambled Eggs with Whole Wheat Toast and Greek Yogurt,guided
+-60.2,-66.13,42.11,-69.78,1861,Apple with Almond Butter,guided
+415562.65,-98.26,17757.14,76.47,1861,Grilled Chicken Salad,guided
+-70.08,-25.28,-82.22,-70.24,1861,Greek Yogurt with Berries and Nuts,guided
+73.45,48.99,44.03,156.76,1861,Grilled Salmon with Quinoa and Steamed Vegetables,guided
+508.93,1275.0,-10.71,3025.0,66,Mediterranean Omelette,partial_guided
+-31.86,-55.19,-30.62,-30.33,66,Fruit and Nut Mix,partial_guided
+37.46,214.57,-64.76,61.86,66,Greek Salad with Grilled Chicken,partial_guided
+-56.65,389.0,-63.62,-85.25,66,Greek Yogurt with Honey and Berries,partial_guided
+120.0,48.99,85.19,264.86,66,Grilled Salmon with Quinoa and Steamed Broccoli,partial_guided
+32.16,21.46,-65.01,180.49,354,Paleo Egg Muffins with Veggies,partial_guided
+306.98,233.78,104.25,2335.9,354,Almond-Cocoa Protein Smoothie,partial_guided
+-12.4,151.57,50.33,-33.85,354,Chicken Salad with Avocado and Tomatoes,partial_guided
+-57.51,-61.3,42.11,-66.01,354,Apple with Almond Butter,partial_guided
+705.88,1.18,-94.86,-50.37,354,Grilled Salmon with Broccoli and Sweet Potato,partial_guided
+43.98,120.47,-48.85,,906,Middle Eastern Shakshuka,partial_guided
+-80.66,-14.27,-88.89,-85.71,906,Greek Yogurt with Almonds,partial_guided
+142.42,116.38,165.96,109.15,906,Gluten-free Falafel Salad,partial_guided
+-58.22,-52.49,-34.15,-79.02,906,Hummus with Carrots,partial_guided
+80.72,359.42,12.87,76.99,906,Grilled Chicken with Quinoa,partial_guided
+-8.12,5.82,-47.61,12.36,939,Veggie Scramble with Whole Grain Toast,partial_guided
+-73.37,-80.65,8.95,-81.11,939,Apple and Almond Butter,partial_guided
+-2.17,-26.0,-14.29,68.07,939,Chickpea Salad with Whole Wheat Pita,partial_guided
+-71.1,389.0,-83.02,-100.0,939,Greek Yogurt with Berries,partial_guided
+-13.1,72.5,-30.88,-47.99,939,Grilled Chicken with Quinoa and Steamed Vegetables,partial_guided
+-49.32,0.29,-30.04,-60.1,1274,Scrambled Eggs with Avocado and Berries,partial_guided
+-78.75,-75.81,-79.72,-71.55,1274,Almond and Fruit Salad,partial_guided
+481827.71,-98.01,17757.14,125.49,1274,Grilled Chicken Salad,partial_guided
+-71.1,389.0,-87.87,-80.33,1274,Greek Yogurt with Berries,partial_guided
+197.62,46.07,248.84,434.76,1274,Grilled Salmon with Steamed Vegetables,partial_guided
+-48.71,13.29,-31.4,-58.11,1290,** Scrambled eggs with whole grain toast and avocado,partial_guided
+-24.24,101.61,-43.79,-100.0,1290,** Greek yogurt with mixed berries,partial_guided
+301104.82,-98.51,26685.71,-31.37,1290,** Grilled chicken salad,partial_guided
+-63.61,-63.65,-32.97,-70.84,1290,** Apple and almond butter,partial_guided
+3.14,12.71,27.93,-10.51,1290,** Baked salmon with quinoa and steamed broccoli,partial_guided
+-8.77,23.29,63.04,-12.96,1324,Avocado Bacon and Eggs,partial_guided
+203.37,881.82,36.99,141.33,1324,Keto Smoothie,partial_guided
+287.6,489.57,-20.0,363.68,1324,Chicken Tikka Salad,partial_guided
+-71.74,605.88,9900.0,-78.1,1324,Almond Butter Celery Sticks,partial_guided
+1880.26,878.72,-38.18,2886.77,1324,Thai Green Curry with Tofu,partial_guided
+463.95,300.53,390.2,1823.08,1334,Protein Smoothie Bowl,partial_guided
+-65.18,-16.98,-82.22,-65.99,1334,Greek Yogurt with Berries and Nuts,partial_guided
+277.36,2415.72,120.13,528.93,1334,Chicken Teriyaki Stir Fry,partial_guided
+-79.96,-81.05,-80.45,-80.53,1334,Rice Cakes with Peanut Butter,partial_guided
+870.37,841.86,982.35,1595.31,1334,Salmon Sushi Roll,partial_guided
+175.65,117.39,222.58,304.98,1732,Protein Pancakes,partial_guided
+254.98,-91.09,57.27,-95.75,1732,Fruit and Nut Snack,partial_guided
+147.98,54.56,628.16,91.29,1732,Chicken and Veggie Stir Fry,partial_guided
+-70.33,389.0,-80.6,-90.17,1732,Greek Yogurt with Berries,partial_guided
+81.35,115.0,189.47,43.68,1732,Salmon with Quinoa Salad,partial_guided
+11.61,-7.41,-35.11,130.77,1861,Scrambled Tofu with Veggies,partial_guided
+-68.52,-84.93,-27.08,-74.56,1861,Banana and Almond Butter Smoothie,partial_guided
+58.96,208.91,17.28,94.17,1861,Thai Basil Chicken with Brown Rice,partial_guided
+-78.24,-37.73,-86.66,-78.74,1861,Greek Yogurt with Berries and Nuts,partial_guided
+185.09,93.05,105.0,377.1,1861,Grilled Salmon with Quinoa and Asparagus,partial_guided
+69.35,317.63,48.54,71.76,66,Gluten Free Mediterranean Breakfast Bowl,unguided
+-78.33,-78.37,-74.0,-81.17,66,Almond and Date Energy Balls,unguided
+478.95,1368.53,281.58,847.37,66,Gluten-Free Quinoa Salad,unguided
+-71.1,389.0,-78.17,-85.25,66,Greek Yogurt with Berries,unguided
+167.86,57.92,365.12,256.51,66,Grilled Salmon with Steamed Veggies,unguided
+47.83,155.54,-61.22,96.43,354,Paleo Egg Muffins,unguided
+-47.8,120.13,23.1,-66.19,354,Avocado and Chicken Salad,unguided
+304.04,239.88,278.79,1129.51,354,Mediterranean Shrimp Skewers,unguided
+-44.71,-52.1,-40.0,-46.67,354,Mixed Nuts,unguided
+1775.0,4561.02,643.1,,354,Mexican Chicken Stir-Fry,unguided
+-31.45,511.09,-0.12,-53.73,1274,Paleo Egg and Avocado Breakfast*,unguided
+-70.8,-65.64,-53.8,-76.8,1274,Mixed Nuts and Berries*,unguided
+191.67,192.15,504.84,126.63,1274,Mexican Paleo Chicken Salad*,unguided
+-78.13,-70.97,-62.69,-84.22,1274,Celery and Almond Butter*,unguided
+292.67,655.91,-11.76,,1274,Middle Eastern Lamb Stew*,unguided
+-36.17,-98.49,375.54,-52.0,1290,Avocado and Egg Toast,unguided
+-71.1,389.0,-87.87,-85.25,1290,Greek Yogurt and Berries,unguided
+361345.78,-98.51,35614.29,-31.37,1290,Grilled Chicken Salad,unguided
+-73.23,-72.75,-78.57,-75.99,1290,Almonds and Cheese,unguided
+31.23,23.85,124.89,-0.94,1290,Baked Salmon and Quinoa,unguided
+-67.68,-84.85,-67.09,-71.5,1290,Dark Chocolate,unguided
+,,20733.33,,1334,Japanese-style Tofu Scramble,unguided
+-70.28,-74.84,-40.87,-78.07,1334,Edamame and Almonds,unguided
+104.08,134.08,1474.8,11.11,1334,Thai Shrimp Salad,unguided
+-70.93,272.21,-81.71,-85.26,1334,Greek Yogurt with Mixed Berries,unguided
+224.68,392.0,178.55,166.67,1334,Spicy Thai Basil Chicken,unguided
+-50.68,-18.5,-23.88,-64.14,1861,Scrambled Eggs with Avocado on Whole Grain Toast,unguided
+-85.07,-27.29,-87.96,-94.13,1861,Greek Yogurt with Berries and Chia Seeds,unguided
+421586.75,-98.26,17757.14,56.86,1861,Grilled Chicken Salad,unguided
+-60.44,-65.0,25.0,-70.14,1861,Almonds and Apple,unguided
+-18.03,42.45,-36.74,-39.79,1861,Stir-Fried Shrimp with Quinoa and Mixed Veggies,unguided
+165.15,59.72,485.94,182.02,66,Mediterranean Egg White Scramble,agentic
+-68.09,-14.27,-74.44,-77.14,66,Greek Yogurt with Honey and Almonds,agentic
+460.31,-97.91,189.19,83.49,66,Grilled Chicken Salad with Quinoa,agentic
+-74.52,-6.63,-68.15,-85.07,66,Hummus and Veggie Sticks,agentic
+37.57,36.75,88.76,-7.61,66,Baked Salmon with Sweet Potatoes and Asparagus,agentic
+72.97,20.9,1768.13,66.67,354,Paleo Avocado-Egg Bake,agentic
+-42.62,-48.95,-4.31,-47.97,354,Paleo Nut Mix,agentic
+421586.75,-98.26,14185.71,96.08,354,Paleo Grilled Chicken Salad,agentic
+-57.17,-39.85,-35.76,-76.58,354,Paleo Banana Muffin,agentic
+60.64,158.56,30.72,7.6,354,Paleo Mexican Shrimp Skillet,agentic
+400.0,775.0,42.86,2150.0,906,Gluten-Free Shakshuka,agentic
+-99.78,765.05,-94.8,-51.05,906,Almond and Date Energy Balls,agentic
+25.0,190.96,-24.05,22.7,906,Grilled Chicken with Quinoa Salad,agentic
+-72.38,-63.86,-60.91,-82.52,906,Hummus and Carrot Sticks,agentic
+-54.58,-14.26,34.45,-72.97,906,Gluten-Free Falafel with Tahini Sauce,agentic
+-37.5,-47.0,-53.2,-16.76,939,Scrambled Eggs with Whole Grain Toast,agentic
+-70.93,396.28,-81.71,-100.0,939,Greek Yogurt with Mixed Berries,agentic
+361345.78,-98.51,17757.14,47.06,939,Grilled Chicken Salad,agentic
+-71.67,-80.65,37.38,-81.11,939,Apple with Almond Butter,agentic
+407.04,745.77,480.31,287.32,939,Tofu Stir-Fry,agentic
+60.64,29.28,161.44,29.12,1274,Paleo Mexican Breakfast Bowl,agentic
+404.2,52.09,11.52,1425.42,1274,Paleo Almond Joy Smoothie,agentic
+4.71,214.96,-87.21,,1274,Paleo Middle Eastern Chicken Salad,agentic
+-79.4,-60.51,-95.89,-95.62,1274,Paleo Nut and Fruit Mix,agentic
+1233.33,3967.8,218.47,,1274,Paleo Mexican Shrimp Stir Fry,agentic
+-16.67,51.52,234.45,-39.73,1290,Scrambled Eggs with Avocado Toast,agentic
+-71.1,389.0,-75.75,-100.0,1290,Greek Yogurt with Berries,agentic
+16.28,185.71,132.56,-59.51,1290,Chicken Salad,agentic
+-64.59,-66.13,42.11,-71.67,1290,Apple with Almond Butter,agentic
+37.74,65.22,82.11,15.67,1290,Salmon with Quinoa and Broccoli,agentic
+-67.68,-84.85,-67.09,-71.5,1290,Dark Chocolate,agentic
+-11.35,25.52,-4.0,-15.63,1324,Scrambled Eggs with Avocado and Spinach,agentic
+134.38,-66.09,-36.44,223.89,1324,Protein Shake with Almond Milk,agentic
+-58.37,300.0,55.04,-77.55,1324,Chicken Salad with Olive Oil,agentic
+-67.88,-56.4,-74.28,-69.99,1324,Almonds and Cheese,agentic
+372.44,144.5,43.63,1117.39,1324,Grilled Salmon with Cauliflower Rice,agentic
+-16.67,51.52,345.93,-49.78,1334,Scrambled Eggs with Avocado Toast,agentic
+-51.83,389.0,-57.56,-75.42,1334,Greek Yogurt with Berries and Honey,agentic
+289.61,424.74,312.09,235.57,1334,Chicken Pad Thai,agentic
+79.25,44.07,112.46,69.85,1334,Edamame,agentic
+88.46,69.22,136.67,152.29,1334,Salmon Teriyaki with Brown Rice,agentic
+-21.21,207.43,-39.41,-61.78,1732,Protein Pancakes with Berries and Greek Yogurt,agentic
+245.74,-97.99,-4.46,85.68,1732,Tuna and Rice Cake Snack,agentic
+450.97,-97.12,189.19,8.42,1732,Grilled Chicken Salad with Quinoa,agentic
+-51.64,28.59,-55.56,-71.43,1732,Greek Yogurt with Almonds and Honey,agentic
+217.31,169.94,171.55,221.1,1732,Salmon Teriyaki with Brown Rice,agentic
+248.84,300.53,145.1,925.64,1861,Protein Packed Smoothie,agentic
+86.57,422.39,1.32,551.16,1861,Nutty Apple,agentic
+125.0,243.64,169.91,47.93,1861,Chicken Satay Salad,agentic
+-61.46,389.0,-69.69,-90.17,1861,Greek Yogurt with Berries,agentic
+185.71,138.55,187.63,377.1,1861,Quinoa & Grilled Salmon,agentic

@@ -1,0 +1,27 @@
+Using the following reasoned nutrition targets:
+
+{reasoned_nutrition}
+
+And considering:
+- Dietary Restrictions: {dietary_restrictions}
+- Preferred Cuisines: {preferred_cuisines}
+
+Create a full day's meal plan:
+- Breakfast
+- Morning Snack
+- Lunch
+- Evening Snack
+- Dinner
+
+Each meal must include:
+- Meal Name
+- Ingredients
+- Macros (Calories, Protein g, Carbs g, Fats g)
+- Short Rationale
+
+Format each meal clearly under headings:
+Breakfast:
+Morning Snack:
+Lunch:
+Evening Snack:
+Dinner:

@@ -1,0 +1,32 @@
+user_id,mode,meal_type,meal_name,calories,protein_g,carbs_g,fats_g,rationale
+66,unguided,unknown,Gluten Free Mediterranean Breakfast Bowl,420.0,18.0,68.0,9.0,The breakfast bowl is packed with fiber and protein which will keep the user full and energized throughout the morning.
+66,unguided,unknown,Almond and Date Energy Balls,200.0,5.0,25.0,10.0,These energy balls are a great source of healthy fats and quick energy for a mid-morning pick me up.
+66,unguided,unknown,Gluten-Free Quinoa Salad,550.0,42.0,58.0,18.0,"This lunch is high in protein and fiber, with a balance of carbohydrates and healthy fats."
+66,unguided,unknown,Greek Yogurt with Berries,150.0,20.0,18.0,3.0,This snack is high in protein and provides a sweet treat that also packs in antioxidants from the berries.
+66,unguided,unknown,Grilled Salmon with Steamed Veggies,450.0,40.0,20.0,20.0,"Salmon is a great source of omega-3 fatty acids, which are good for heart health. The veggies add fiber and keep the meal light."
+354,unguided,unknown,Paleo Egg Muffins,340.0,30.0,8.0,22.0,"This high-protein, low-carb meal is a great way to start the day. It will keep you full and energized for your morning activities."
+354,unguided,unknown,Avocado and Chicken Salad,380.0,35.0,17.0,23.0,"Avocados provide healthy fats and fiber, while the chicken adds a good portion of protein."
+354,unguided,unknown,Mediterranean Shrimp Skewers,400.0,45.0,30.0,15.0,Shrimp skewers are high in protein and provide a good amount of veggies.
+354,unguided,unknown,Mixed Nuts,350.0,8.0,12.0,32.0,"Nuts are a good source of healthy fats and protein, and are easy to snack on."
+354,unguided,unknown,Mexican Chicken Stir-Fry,450.0,55.0,35.0,10.0,This meal is high in protein and provides a good amount of veggies. The Mexican spices add flavor without adding calories.
+1274,unguided,unknown,Paleo Egg and Avocado Breakfast*,305.0,14.0,8.0,25.0,This meal provides a good source of healthy fats and protein to begin the day with. It is also very easy to prepare and adheres to the paleo diet.
+1274,unguided,unknown,Mixed Nuts and Berries*,200.0,6.0,15.0,14.0,This snack is rich in antioxidants and healthy fats. It's also a quick and easy snack that adheres to the paleo diet.
+1274,unguided,unknown,Mexican Paleo Chicken Salad*,350.0,35.0,15.0,16.0,This meal is high in protein and fiber. It also incorporates preferred Mexican flavors and adheres to the paleo diet.
+1274,unguided,unknown,Celery and Almond Butter*,180.0,6.0,8.0,14.0,This snack provides a good dose of healthy fats and protein. It's also a quick and easy snack that adheres to the paleo diet.
+1274,unguided,unknown,Middle Eastern Lamb Stew*,1500.0,96.0,69.0,94.0,This dinner is high in protein and rich in taste. It incorporates preferred Middle Eastern flavors and adheres to the paleo diet.
+1290,unguided,unknown,Avocado and Egg Toast,420.0,20.0,35.0,22.0,"This meal provides a healthy balance of fats, proteins, and carbohydrates to start the day. Avocados are a good source of monounsaturated fats, which are heart-healthy, and eggs provide high-quality protein."
+1290,unguided,unknown,Greek Yogurt and Berries,150.0,20.0,10.0,3.0,"Greek yogurt is high in protein and calcium, which supports bone health. Berries are a great source of antioxidants."
+1290,unguided,unknown,Grilled Chicken Salad,300.0,30.0,20.0,7.0,"This meal is high in protein and low in fat, helping to maintain lean body mass. It also provides a variety of vitamins and minerals from the veggies."
+1290,unguided,unknown,Almonds and Cheese,250.0,10.0,5.0,20.0,"This snack is high in healthy fats and protein, which can help maintain satiety until dinner."
+1290,unguided,unknown,Baked Salmon and Quinoa,500.0,35.0,45.0,20.0,"Salmon is high in omega-3 fatty acids, which are good for heart health. Quinoa is a complete protein and a great source of fiber, and broccoli provides essential vitamins and minerals."
+1290,unguided,unknown,Dark Chocolate,170.0,2.0,13.0,12.0,Dark chocolate is rich in antioxidants and can satisfy sweet cravings in a healthier way.
+1334,unguided,unknown,Japanese-style Tofu Scramble,350.0,20.0,25.0,18.0,"This meal provides a good balance of protein, carbohydrates, and healthy fats to start the day."
+1334,unguided,unknown,Edamame and Almonds,200.0,8.0,16.0,12.0,Edamame and almonds are rich in protein and healthy fats which are beneficial for maintaining energy levels throughout the day.
+1334,unguided,unknown,Thai Shrimp Salad,400.0,25.0,20.0,18.0,"This meal is low in carbohydrates and high in protein, perfect for energy and weight loss."
+1334,unguided,unknown,Greek Yogurt with Mixed Berries,150.0,15.0,15.0,3.0,Greek yogurt is high in protein and can help to sustain energy levels until dinner. The mixed berries add some fiber and natural sweetness.
+1334,unguided,unknown,Spicy Thai Basil Chicken,500.0,40.0,40.0,20.0,"This meal is high in protein and moderate in carbohydrates and fats, which aligns with the user's weight loss and energy goals."
+1861,unguided,unknown,Scrambled Eggs with Avocado on Whole Grain Toast,400.0,20.0,30.0,22.0,"A balanced meal with protein from eggs, healthy fats from avocado and olive oil, and complex carbs from whole grain bread to start the day."
+1861,unguided,unknown,Greek Yogurt with Berries and Chia Seeds,150.0,15.0,15.0,3.0,A protein-rich snack with antioxidants from berries and fiber from chia seeds to keep you full until lunch.
+1861,unguided,unknown,Grilled Chicken Salad,350.0,35.0,10.0,16.0,"A high-protein, low-carb lunch with plenty of vegetables for fiber and volume."
+1861,unguided,unknown,Almonds and Apple,250.0,7.0,25.0,15.0,A snack with healthy fats from almonds and fiber-rich carbs from apple to satisfy hunger between meals.
+1861,unguided,unknown,Stir-Fried Shrimp with Quinoa and Mixed Veggies,450.0,40.0,40.0,12.0,"A balanced meal with high-quality protein from shrimp, complex carbs from quinoa, and a variety of vegetables for added fiber and nutrients."
