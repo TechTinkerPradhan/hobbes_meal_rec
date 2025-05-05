@@ -1,0 +1,206 @@
+user_id,name,email,age,sex,weight_kg,height_cm,activity_level,exercise_frequency_per_week,health_conditions,goal_type,motivation,dietary_restrictions,preferred_cuisines,optimal_calories,protein_g,carbs_g,fat_g,goals,generated_meals,total_calories,total_protein_g,total_carbs_g,total_fat_g,model,duration_sec,raw_output
+9999,Artemis,artemis@example.com,27,Male,68,173,Moderately Active,4,['none'],muscle_gain,Increase strength and energy,Shellfish,"Mediterranean, Indian",2800,150,320,90,gain_muscle,Breakfast: Oatmeal with Berries and Nuts (Rolled Oats 50 g; Almond Milk 240 ml; Mixed Berries 100 g; Walnuts 30 g; Chia Seeds 15 g; Honey 1 tbsp) | Lunch: Lentil Soup with Whole-Wheat Bread and Salad (Lentils 100 g; Vegetable Broth 500 ml; Carrots 75 g; Celery 50 g; Onion 50 g; Whole-Wheat Bread 2 slices; Mixed Greens 50 g; Cucumber 50 g; Olive Oil 1 tbsp; Lemon Juice 1 tbsp) | Evening Snack: Apple slices with Peanut Butter (Apple 1 medium; Peanut Butter 30 g) | Dinner: Chicken Stir-fry with Brown Rice (Chicken Breast 150 g; Brown Rice 80 g; Broccoli 100 g; Bell Peppers 100 g; Soy Sauce 1 tbsp; Sesame Oil 1 tsp; Garlic 1 clove; Ginger 1 tsp),2802,150.1,320.2,90.1,gemini-2.0-flash-lite,9.93,"```json
+{
+  ""totals"": {
+    ""calories"": 2802,
+    ""protein_g"": 150.1,
+    ""carbs_g"": 320.2,
+    ""fat_g"": 90.1,
+    ""sodium_mg"": 2280,
+    ""added_sugar_g"": 38,
+    ""fiber_g"": 48
+  },
+  ""meals"": [
+    {
+      ""label"": ""Breakfast"",
+      ""name"": ""Oatmeal with Berries and Nuts"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Rolled Oats"",
+          ""quantity_amount"": 50,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Almond Milk"",
+          ""quantity_amount"": 240,
+          ""quantity_unit"": ""ml""
+        },
+        {
+          ""item"": ""Mixed Berries"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Walnuts"",
+          ""quantity_amount"": 30,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Chia Seeds"",
+          ""quantity_amount"": 15,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Honey"",
+          ""quantity_amount"": 1,
+          ""quantity_unit"": ""tbsp""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 580,
+        ""protein_g"": 20,
+        ""carbs_g"": 70,
+        ""fat_g"": 30
+      },
+      ""rationale"": ""A balanced breakfast providing fiber, protein, and healthy fats. Honey is added for a touch of sweetness."",
+      ""tip"": ""Add a pinch of cinnamon for extra flavor and antioxidants.""
+    },
+    {
+      ""label"": ""Lunch"",
+      ""name"": ""Lentil Soup with Whole-Wheat Bread and Salad"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Lentils"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Vegetable Broth"",
+          ""quantity_amount"": 500,
+          ""quantity_unit"": ""ml""
+        },
+        {
+          ""item"": ""Carrots"",
+          ""quantity_amount"": 75,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Celery"",
+          ""quantity_amount"": 50,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Onion"",
+          ""quantity_amount"": 50,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Whole-Wheat Bread"",
+          ""quantity_amount"": 2,
+          ""quantity_unit"": ""slices""
+        },
+        {
+          ""item"": ""Mixed Greens"",
+          ""quantity_amount"": 50,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Cucumber"",
+          ""quantity_amount"": 50,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Olive Oil"",
+          ""quantity_amount"": 1,
+          ""quantity_unit"": ""tbsp""
+        },
+        {
+          ""item"": ""Lemon Juice"",
+          ""quantity_amount"": 1,
+          ""quantity_unit"": ""tbsp""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 890,
+        ""protein_g"": 40,
+        ""carbs_g"": 120,
+        ""fat_g"": 30
+      },
+      ""rationale"": ""A hearty and fiber-rich lunch. The salad provides additional vitamins and minerals."",
+      ""tip"": ""Add a squeeze of lemon juice to the soup for extra flavor.""
+    },
+    {
+      ""label"": ""Evening Snack"",
+      ""name"": ""Apple slices with Peanut Butter"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Apple"",
+          ""quantity_amount"": 1,
+          ""quantity_unit"": ""medium""
+        },
+        {
+          ""item"": ""Peanut Butter"",
+          ""quantity_amount"": 30,
+          ""quantity_unit"": ""g""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 302,
+        ""protein_g"": 10,
+        ""carbs_g"": 30,
+        ""fat_g"": 18
+      },
+      ""rationale"": ""A simple snack providing fiber, protein, and healthy fats."",
+      ""tip"": ""Choose natural peanut butter with no added sugar.""
+    },
+    {
+      ""label"": ""Dinner"",
+      ""name"": ""Chicken Stir-fry with Brown Rice"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Chicken Breast"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Brown Rice"",
+          ""quantity_amount"": 80,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Broccoli"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Bell Peppers"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Soy Sauce"",
+          ""quantity_amount"": 1,
+          ""quantity_unit"": ""tbsp""
+        },
+        {
+          ""item"": ""Sesame Oil"",
+          ""quantity_amount"": 1,
+          ""quantity_unit"": ""tsp""
+        },
+        {
+          ""item"": ""Garlic"",
+          ""quantity_amount"": 1,
+          ""quantity_unit"": ""clove""
+        },
+        {
+          ""item"": ""Ginger"",
+          ""quantity_amount"": 1,
+          ""quantity_unit"": ""tsp""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 1030,
+        ""protein_g"": 80.1,
+        ""carbs_g"": 100.2,
+        ""fat_g"": 12
+      },
+      ""rationale"": ""A protein-packed dinner with a variety of vegetables and whole grains."",
+      ""tip"": ""Add some chili flakes for a spicy kick.""
+    }
+  ]
+}
+```"
