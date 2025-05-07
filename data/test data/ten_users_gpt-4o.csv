@@ -1,0 +1,1701 @@
+user_id,age,sex,weight_kg,height_cm,activity_level,exercise_frequency_per_week,health_conditions,goal_type,motivation,dietary_restrictions,preferred_cuisines,optimal_calories,protein_g,carbs_g,fat_g,goals,generated_meals,total_calories,total_protein_g,total_carbs_g,total_fat_g,model,duration_sec,raw_output
+1,43,male,66.5,185.2,Moderately Active,2,none,reverse_metabolic_markers,energy,vegetarian,Italian; Japanese,2470.43,185.28,277.92,68.62,['reverse_metabolic_markers'],Breakfast: Tofu Scramble with Avocado Toast (Tofu 150 g; Spinach 50 g; Tomato 50 g; Olive Oil 1 tbsp; Whole Grain Bread 2 slices; Avocado 1 medium) | Lunch: Chickpea Quinoa Salad (Quinoa 100 g; Chickpeas 150 g; Cucumber 100 g; Bell Pepper 100 g; Olive Oil 1 tbsp; Lemon Juice 1 tbsp) | Evening Snack: Greek Yogurt with Berries and Nuts (Greek Yogurt 200 g; Mixed Berries 100 g; Almonds 30 g; Honey 1 tsp) | Dinner: Lentil and Vegetable Stir-fry (Lentils 150 g; Broccoli 100 g; Carrot 100 g; Soy Sauce 1 tbsp; Sesame Oil 1 tsp; Garlic 2 cloves),2470,185,278,69,gpt-4o,11.21,"```json
+{
+  ""totals"": {
+    ""calories"": 2470,
+    ""protein_g"": 185,
+    ""carbs_g"": 278,
+    ""fat_g"": 69,
+    ""sodium_mg"": 1450,
+    ""added_sugar_g"": 20,
+    ""fiber_g"": 35
+  },
+  ""meals"": [
+    {
+      ""label"": ""Breakfast"",
+      ""name"": ""Tofu Scramble with Avocado Toast"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Tofu"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Spinach"",
+          ""quantity_amount"": 50,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Tomato"",
+          ""quantity_amount"": 50,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Olive Oil"",
+          ""quantity_amount"": 1,
+          ""quantity_unit"": ""tbsp""
+        },
+        {
+          ""item"": ""Whole Grain Bread"",
+          ""quantity_amount"": 2,
+          ""quantity_unit"": ""slices""
+        },
+        {
+          ""item"": ""Avocado"",
+          ""quantity_amount"": 1,
+          ""quantity_unit"": ""medium""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 620,
+        ""protein_g"": 30,
+        ""carbs_g"": 60,
+        ""fat_g"": 30
+      },
+      ""rationale"": ""A protein-rich breakfast using tofu as a substitute for eggs, paired with healthy fats from avocado."",
+      ""tip"": ""Add a pinch of turmeric to the tofu scramble for color and flavor.""
+    },
+    {
+      ""label"": ""Lunch"",
+      ""name"": ""Chickpea Quinoa Salad"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Quinoa"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Chickpeas"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Cucumber"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Bell Pepper"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Olive Oil"",
+          ""quantity_amount"": 1,
+          ""quantity_unit"": ""tbsp""
+        },
+        {
+          ""item"": ""Lemon Juice"",
+          ""quantity_amount"": 1,
+          ""quantity_unit"": ""tbsp""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 860,
+        ""protein_g"": 40,
+        ""carbs_g"": 110,
+        ""fat_g"": 30
+      },
+      ""rationale"": ""A balanced meal with complete protein from quinoa and chickpeas, and a variety of vegetables."",
+      ""tip"": ""Add fresh herbs like parsley or cilantro for extra flavor.""
+    },
+    {
+      ""label"": ""Evening Snack"",
+      ""name"": ""Greek Yogurt with Berries and Nuts"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Greek Yogurt"",
+          ""quantity_amount"": 200,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Mixed Berries"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Almonds"",
+          ""quantity_amount"": 30,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Honey"",
+          ""quantity_amount"": 1,
+          ""quantity_unit"": ""tsp""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 250,
+        ""protein_g"": 20,
+        ""carbs_g"": 30,
+        ""fat_g"": 10
+      },
+      ""rationale"": ""A nutrient-dense snack with protein, healthy fats, and antioxidants from berries."",
+      ""tip"": ""Use unsweetened yogurt to control sugar intake.""
+    },
+    {
+      ""label"": ""Dinner"",
+      ""name"": ""Lentil and Vegetable Stir-fry"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Lentils"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Broccoli"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Carrot"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Soy Sauce"",
+          ""quantity_amount"": 1,
+          ""quantity_unit"": ""tbsp""
+        },
+        {
+          ""item"": ""Sesame Oil"",
+          ""quantity_amount"": 1,
+          ""quantity_unit"": ""tsp""
+        },
+        {
+          ""item"": ""Garlic"",
+          ""quantity_amount"": 2,
+          ""quantity_unit"": ""cloves""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 740,
+        ""protein_g"": 95,
+        ""carbs_g"": 78,
+        ""fat_g"": 10
+      },
+      ""rationale"": ""A high-protein dinner with lentils and a variety of vegetables for fiber and nutrients."",
+      ""tip"": ""Add a sprinkle of sesame seeds for extra crunch.""
+    }
+  ]
+}
+```"
+2,49,male,70.0,165.4,Lightly Active,3,heart disease,optimize_fitness,energy,none,Chinese; Mediterranean,2077.52,155.81,233.72,57.71,['optimize_fitness'],Breakfast: Greek Yogurt Parfait (Greek Yogurt 200 g; Mixed Berries 100 g; Granola 30 g; Honey 10 g) | Lunch: Grilled Chicken Salad (Chicken Breast 150 g; Mixed Greens 100 g; Cherry Tomatoes 80 g; Cucumber 50 g; Olive Oil 15 ml; Feta Cheese 30 g) | Evening Snack: Apple and Almond Butter (Apple 1 medium; Almond Butter 20 g) | Dinner: Quinoa and Black Bean Stir-Fry (Quinoa 100 g; Black Beans 120 g; Bell Peppers 100 g; Onion 50 g; Olive Oil 10 ml; Garlic 5 g),2076,156,234,58,gpt-4o,11.55,"```json
+{
+  ""totals"": {
+    ""calories"": 2076,
+    ""protein_g"": 156,
+    ""carbs_g"": 234,
+    ""fat_g"": 58,
+    ""sodium_mg"": 1450,
+    ""added_sugar_g"": 18,
+    ""fiber_g"": 30
+  },
+  ""meals"": [
+    {
+      ""label"": ""Breakfast"",
+      ""name"": ""Greek Yogurt Parfait"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Greek Yogurt"",
+          ""quantity_amount"": 200,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Mixed Berries"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Granola"",
+          ""quantity_amount"": 30,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Honey"",
+          ""quantity_amount"": 10,
+          ""quantity_unit"": ""g""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 520,
+        ""protein_g"": 30,
+        ""carbs_g"": 60,
+        ""fat_g"": 15
+      },
+      ""rationale"": ""A balanced breakfast with protein from yogurt, carbs from granola, and natural sugars from berries and honey."",
+      ""tip"": ""Use a mix of fresh or frozen berries for variety.""
+    },
+    {
+      ""label"": ""Lunch"",
+      ""name"": ""Grilled Chicken Salad"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Chicken Breast"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Mixed Greens"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Cherry Tomatoes"",
+          ""quantity_amount"": 80,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Cucumber"",
+          ""quantity_amount"": 50,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Olive Oil"",
+          ""quantity_amount"": 15,
+          ""quantity_unit"": ""ml""
+        },
+        {
+          ""item"": ""Feta Cheese"",
+          ""quantity_amount"": 30,
+          ""quantity_unit"": ""g""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 730,
+        ""protein_g"": 60,
+        ""carbs_g"": 40,
+        ""fat_g"": 40
+      },
+      ""rationale"": ""A protein-rich meal with healthy fats from olive oil and feta, and a variety of vegetables for fiber."",
+      ""tip"": ""Grill chicken with herbs for added flavor without extra sodium.""
+    },
+    {
+      ""label"": ""Evening Snack"",
+      ""name"": ""Apple and Almond Butter"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Apple"",
+          ""quantity_amount"": 1,
+          ""quantity_unit"": ""medium""
+        },
+        {
+          ""item"": ""Almond Butter"",
+          ""quantity_amount"": 20,
+          ""quantity_unit"": ""g""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 200,
+        ""protein_g"": 4,
+        ""carbs_g"": 30,
+        ""fat_g"": 10
+      },
+      ""rationale"": ""A simple snack providing natural sugars and healthy fats."",
+      ""tip"": ""Choose unsweetened almond butter to reduce added sugars.""
+    },
+    {
+      ""label"": ""Dinner"",
+      ""name"": ""Quinoa and Black Bean Stir-Fry"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Quinoa"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Black Beans"",
+          ""quantity_amount"": 120,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Bell Peppers"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Onion"",
+          ""quantity_amount"": 50,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Olive Oil"",
+          ""quantity_amount"": 10,
+          ""quantity_unit"": ""ml""
+        },
+        {
+          ""item"": ""Garlic"",
+          ""quantity_amount"": 5,
+          ""quantity_unit"": ""g""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 626,
+        ""protein_g"": 62,
+        ""carbs_g"": 104,
+        ""fat_g"": 23
+      },
+      ""rationale"": ""A plant-based dinner rich in protein and fiber, with a variety of vegetables."",
+      ""tip"": ""Add lime juice and cilantro for extra flavor.""
+    }
+  ]
+}
+```"
+3,35,female,72.7,195.7,Super Active,6,none,weight_loss,energy,paleo,Mexican; Japanese,2466.71,185.0,277.5,68.52,['weight_loss'],Breakfast: Oatmeal with Berries and Almonds (Rolled Oats 80 g; Almond Milk 250 ml; Blueberries 100 g; Almonds 30 g; Honey 10 g) | Lunch: Grilled Chicken Salad with Quinoa (Chicken Breast 150 g; Quinoa 100 g; Mixed Greens 100 g; Cherry Tomatoes 80 g; Cucumber 50 g; Olive Oil 15 ml; Lemon Juice 10 ml) | Evening Snack: Greek Yogurt with Walnuts and Honey (Greek Yogurt 200 g; Walnuts 20 g; Honey 10 g) | Dinner: Baked Salmon with Sweet Potato and Broccoli (Salmon Fillet 180 g; Sweet Potato 150 g; Broccoli 100 g; Olive Oil 10 ml; Garlic 5 g),2465,185,277,68,gpt-4o,12.49,"```json
+{
+  ""totals"": {
+    ""calories"": 2465,
+    ""protein_g"": 185,
+    ""carbs_g"": 277,
+    ""fat_g"": 68,
+    ""sodium_mg"": 1450,
+    ""added_sugar_g"": 20,
+    ""fiber_g"": 35
+  },
+  ""meals"": [
+    {
+      ""label"": ""Breakfast"",
+      ""name"": ""Oatmeal with Berries and Almonds"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Rolled Oats"",
+          ""quantity_amount"": 80,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Almond Milk"",
+          ""quantity_amount"": 250,
+          ""quantity_unit"": ""ml""
+        },
+        {
+          ""item"": ""Blueberries"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Almonds"",
+          ""quantity_amount"": 30,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Honey"",
+          ""quantity_amount"": 10,
+          ""quantity_unit"": ""g""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 615,
+        ""protein_g"": 18,
+        ""carbs_g"": 85,
+        ""fat_g"": 22
+      },
+      ""rationale"": ""A balanced breakfast with whole grains, fruit, and nuts to provide a good mix of macronutrients and fiber."",
+      ""tip"": ""Add a pinch of cinnamon for extra flavor without added sugar.""
+    },
+    {
+      ""label"": ""Lunch"",
+      ""name"": ""Grilled Chicken Salad with Quinoa"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Chicken Breast"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Quinoa"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Mixed Greens"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Cherry Tomatoes"",
+          ""quantity_amount"": 80,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Cucumber"",
+          ""quantity_amount"": 50,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Olive Oil"",
+          ""quantity_amount"": 15,
+          ""quantity_unit"": ""ml""
+        },
+        {
+          ""item"": ""Lemon Juice"",
+          ""quantity_amount"": 10,
+          ""quantity_unit"": ""ml""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 860,
+        ""protein_g"": 65,
+        ""carbs_g"": 90,
+        ""fat_g"": 30
+      },
+      ""rationale"": ""A nutrient-dense lunch with lean protein, whole grains, and a variety of vegetables for vitamins and minerals."",
+      ""tip"": ""Prepare quinoa in advance to save time.""
+    },
+    {
+      ""label"": ""Evening Snack"",
+      ""name"": ""Greek Yogurt with Walnuts and Honey"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Greek Yogurt"",
+          ""quantity_amount"": 200,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Walnuts"",
+          ""quantity_amount"": 20,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Honey"",
+          ""quantity_amount"": 10,
+          ""quantity_unit"": ""g""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 300,
+        ""protein_g"": 20,
+        ""carbs_g"": 30,
+        ""fat_g"": 15
+      },
+      ""rationale"": ""A protein-rich snack with healthy fats and a touch of sweetness to keep energy levels stable."",
+      ""tip"": ""Use plain Greek yogurt to control sugar content.""
+    },
+    {
+      ""label"": ""Dinner"",
+      ""name"": ""Baked Salmon with Sweet Potato and Broccoli"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Salmon Fillet"",
+          ""quantity_amount"": 180,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Sweet Potato"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Broccoli"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Olive Oil"",
+          ""quantity_amount"": 10,
+          ""quantity_unit"": ""ml""
+        },
+        {
+          ""item"": ""Garlic"",
+          ""quantity_amount"": 5,
+          ""quantity_unit"": ""g""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 690,
+        ""protein_g"": 82,
+        ""carbs_g"": 72,
+        ""fat_g"": 21
+      },
+      ""rationale"": ""A balanced dinner with omega-3 rich salmon, complex carbohydrates, and fiber-rich vegetables."",
+      ""tip"": ""Roast sweet potatoes and broccoli together for convenience.""
+    }
+  ]
+}
+```"
+4,57,male,92.6,166.7,Very Active,2,pre-diabetes,muscle_gain,doctor_recommendation,paleo,Chinese,3460.31,259.52,302.78,134.57,['muscle_gain'],Breakfast: Greek Yogurt with Berries and Almonds (Greek Yogurt 400 g; Mixed Berries 150 g; Almonds 30 g; Honey 15 g) | Lunch: Quinoa Salad with Grilled Chicken (Quinoa 200 g; Grilled Chicken Breast 200 g; Cherry Tomatoes 100 g; Cucumber 100 g; Olive Oil 20 ml; Lemon Juice 30 ml) | Evening Snack: Hummus with Veggie Sticks (Hummus 150 g; Carrot Sticks 100 g; Bell Pepper Sticks 100 g) | Dinner: Salmon with Brown Rice and Steamed Broccoli (Salmon Fillet 250 g; Brown Rice 150 g; Broccoli 200 g; Olive Oil 15 ml; Garlic 5 g),3459,259,303,135,gpt-4o,12.49,"```json
+{
+  ""totals"": {
+    ""calories"": 3459,
+    ""protein_g"": 259,
+    ""carbs_g"": 303,
+    ""fat_g"": 135,
+    ""sodium_mg"": 2200,
+    ""added_sugar_g"": 20,
+    ""fiber_g"": 50
+  },
+  ""meals"": [
+    {
+      ""label"": ""Breakfast"",
+      ""name"": ""Greek Yogurt with Berries and Almonds"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Greek Yogurt"",
+          ""quantity_amount"": 400,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Mixed Berries"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Almonds"",
+          ""quantity_amount"": 30,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Honey"",
+          ""quantity_amount"": 15,
+          ""quantity_unit"": ""g""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 865,
+        ""protein_g"": 60,
+        ""carbs_g"": 80,
+        ""fat_g"": 30
+      },
+      ""rationale"": ""A balanced breakfast with high protein from Greek yogurt and healthy fats from almonds. Honey provides a touch of sweetness while keeping added sugars low."",
+      ""tip"": ""Use fresh or frozen berries for convenience and cost-effectiveness.""
+    },
+    {
+      ""label"": ""Lunch"",
+      ""name"": ""Quinoa Salad with Grilled Chicken"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Quinoa"",
+          ""quantity_amount"": 200,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Grilled Chicken Breast"",
+          ""quantity_amount"": 200,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Cherry Tomatoes"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Cucumber"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Olive Oil"",
+          ""quantity_amount"": 20,
+          ""quantity_unit"": ""ml""
+        },
+        {
+          ""item"": ""Lemon Juice"",
+          ""quantity_amount"": 30,
+          ""quantity_unit"": ""ml""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 1210,
+        ""protein_g"": 90,
+        ""carbs_g"": 120,
+        ""fat_g"": 45
+      },
+      ""rationale"": ""A hearty lunch with complete protein from quinoa and chicken. Fresh vegetables add fiber and nutrients."",
+      ""tip"": ""Prepare quinoa in advance to save time during busy weekdays.""
+    },
+    {
+      ""label"": ""Evening Snack"",
+      ""name"": ""Hummus with Veggie Sticks"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Hummus"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Carrot Sticks"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Bell Pepper Sticks"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 350,
+        ""protein_g"": 15,
+        ""carbs_g"": 40,
+        ""fat_g"": 15
+      },
+      ""rationale"": ""A light snack with plant-based protein and healthy fats. Veggie sticks provide crunch and fiber."",
+      ""tip"": ""Use a variety of colored peppers for a visually appealing snack.""
+    },
+    {
+      ""label"": ""Dinner"",
+      ""name"": ""Salmon with Brown Rice and Steamed Broccoli"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Salmon Fillet"",
+          ""quantity_amount"": 250,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Brown Rice"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Broccoli"",
+          ""quantity_amount"": 200,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Olive Oil"",
+          ""quantity_amount"": 15,
+          ""quantity_unit"": ""ml""
+        },
+        {
+          ""item"": ""Garlic"",
+          ""quantity_amount"": 5,
+          ""quantity_unit"": ""g""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 1034,
+        ""protein_g"": 94,
+        ""carbs_g"": 63,
+        ""fat_g"": 45
+      },
+      ""rationale"": ""A nutrient-dense dinner with omega-3 rich salmon and fiber-rich brown rice. Broccoli adds vitamins and minerals."",
+      ""tip"": ""Season salmon with herbs like dill or parsley for extra flavor without added sodium.""
+    }
+  ]
+}
+```"
+5,59,female,114.1,169.1,Lightly Active,1,none,longevity,sports_performance,gluten_free,Indian,2505.8,187.93,281.9,69.61,['longevity'],Breakfast: Avocado Toast with Eggs (Gluten-Free Bread 2 slices; Avocado 100 g; Egg 2 large; Cherry Tomatoes 100 g; Olive Oil 1 tsp) | Lunch: Quinoa Salad with Grilled Chicken (Quinoa 150 g; Grilled Chicken Breast 150 g; Cucumber 100 g; Bell Pepper 100 g; Olive Oil 1 tbsp; Lemon Juice 1 tbsp) | Evening Snack: Greek Yogurt with Berries and Almonds (Greek Yogurt 200 g; Mixed Berries 100 g; Almonds 30 g; Honey 1 tsp) | Dinner: Baked Salmon with Sweet Potato and Broccoli (Salmon Fillet 200 g; Sweet Potato 200 g; Broccoli 150 g; Olive Oil 1 tbsp; Garlic 2 cloves),2506,188,282,70,gpt-4o,15.25,"```json
+{
+  ""totals"": {
+    ""calories"": 2506,
+    ""protein_g"": 188,
+    ""carbs_g"": 282,
+    ""fat_g"": 70,
+    ""sodium_mg"": 1480,
+    ""added_sugar_g"": 20,
+    ""fiber_g"": 36
+  },
+  ""meals"": [
+    {
+      ""label"": ""Breakfast"",
+      ""name"": ""Avocado Toast with Eggs"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Gluten-Free Bread"",
+          ""quantity_amount"": 2,
+          ""quantity_unit"": ""slices""
+        },
+        {
+          ""item"": ""Avocado"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Egg"",
+          ""quantity_amount"": 2,
+          ""quantity_unit"": ""large""
+        },
+        {
+          ""item"": ""Cherry Tomatoes"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Olive Oil"",
+          ""quantity_amount"": 1,
+          ""quantity_unit"": ""tsp""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 626,
+        ""protein_g"": 25,
+        ""carbs_g"": 50,
+        ""fat_g"": 38
+      },
+      ""rationale"": ""A balanced breakfast with healthy fats from avocado and olive oil, protein from eggs, and gluten-free bread to meet dietary restrictions."",
+      ""tip"": ""Add a sprinkle of salt and pepper for extra flavor.""
+    },
+    {
+      ""label"": ""Lunch"",
+      ""name"": ""Quinoa Salad with Grilled Chicken"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Quinoa"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Grilled Chicken Breast"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Cucumber"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Bell Pepper"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Olive Oil"",
+          ""quantity_amount"": 1,
+          ""quantity_unit"": ""tbsp""
+        },
+        {
+          ""item"": ""Lemon Juice"",
+          ""quantity_amount"": 1,
+          ""quantity_unit"": ""tbsp""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 877,
+        ""protein_g"": 65,
+        ""carbs_g"": 90,
+        ""fat_g"": 30
+      },
+      ""rationale"": ""A nutrient-dense lunch with lean protein, whole grains, and a variety of vegetables to ensure a balanced intake of macros and micronutrients."",
+      ""tip"": ""Add fresh herbs like parsley or cilantro for an extra burst of flavor.""
+    },
+    {
+      ""label"": ""Evening Snack"",
+      ""name"": ""Greek Yogurt with Berries and Almonds"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Greek Yogurt"",
+          ""quantity_amount"": 200,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Mixed Berries"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Almonds"",
+          ""quantity_amount"": 30,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Honey"",
+          ""quantity_amount"": 1,
+          ""quantity_unit"": ""tsp""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 250,
+        ""protein_g"": 20,
+        ""carbs_g"": 25,
+        ""fat_g"": 10
+      },
+      ""rationale"": ""A protein-rich snack with natural sweetness from berries and honey, providing a good balance of macros and a boost of antioxidants."",
+      ""tip"": ""Use a mix of strawberries, blueberries, and raspberries for a colorful and flavorful snack.""
+    },
+    {
+      ""label"": ""Dinner"",
+      ""name"": ""Baked Salmon with Sweet Potato and Broccoli"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Salmon Fillet"",
+          ""quantity_amount"": 200,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Sweet Potato"",
+          ""quantity_amount"": 200,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Broccoli"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Olive Oil"",
+          ""quantity_amount"": 1,
+          ""quantity_unit"": ""tbsp""
+        },
+        {
+          ""item"": ""Garlic"",
+          ""quantity_amount"": 2,
+          ""quantity_unit"": ""cloves""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 753,
+        ""protein_g"": 78,
+        ""carbs_g"": 117,
+        ""fat_g"": 22
+      },
+      ""rationale"": ""A nutrient-rich dinner featuring omega-3 fatty acids from salmon, complex carbohydrates from sweet potato, and fiber from broccoli."",
+      ""tip"": ""Season the salmon with lemon and dill for a fresh taste.""
+    }
+  ]
+}
+```"
+6,43,female,64.4,169.8,Moderately Active,5,diabetes,reverse_metabolic_markers,health,none,Middle Eastern; Indian,2073.45,155.51,181.43,80.63,['reverse_metabolic_markers'],Breakfast: Greek Yogurt with Berries and Almonds (Greek Yogurt 200 g; Mixed Berries 100 g; Almonds 30 g; Honey 10 g) | Lunch: Grilled Chicken Salad with Quinoa (Grilled Chicken Breast 150 g; Quinoa 100 g; Mixed Greens 100 g; Cherry Tomatoes 50 g; Cucumber 50 g; Olive Oil 15 ml; Lemon Juice 10 ml) | Evening Snack: Hummus with Carrot and Celery Sticks (Hummus 100 g; Carrot Sticks 50 g; Celery Sticks 50 g) | Dinner: Baked Salmon with Sweet Potato and Broccoli (Salmon Fillet 180 g; Sweet Potato 150 g; Broccoli 100 g; Olive Oil 10 ml),2072,155,181,81,gpt-4o,10.74,"```json
+{
+  ""totals"": {
+    ""calories"": 2072,
+    ""protein_g"": 155,
+    ""carbs_g"": 181,
+    ""fat_g"": 81,
+    ""sodium_mg"": 1450,
+    ""added_sugar_g"": 18,
+    ""fiber_g"": 30
+  },
+  ""meals"": [
+    {
+      ""label"": ""Breakfast"",
+      ""name"": ""Greek Yogurt with Berries and Almonds"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Greek Yogurt"",
+          ""quantity_amount"": 200,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Mixed Berries"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Almonds"",
+          ""quantity_amount"": 30,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Honey"",
+          ""quantity_amount"": 10,
+          ""quantity_unit"": ""g""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 520,
+        ""protein_g"": 30,
+        ""carbs_g"": 45,
+        ""fat_g"": 20
+      },
+      ""rationale"": ""A balanced breakfast with high protein from Greek yogurt, healthy fats from almonds, and antioxidants from berries."",
+      ""tip"": ""Use fresh or frozen berries for convenience.""
+    },
+    {
+      ""label"": ""Lunch"",
+      ""name"": ""Grilled Chicken Salad with Quinoa"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Grilled Chicken Breast"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Quinoa"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Mixed Greens"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Cherry Tomatoes"",
+          ""quantity_amount"": 50,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Cucumber"",
+          ""quantity_amount"": 50,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Olive Oil"",
+          ""quantity_amount"": 15,
+          ""quantity_unit"": ""ml""
+        },
+        {
+          ""item"": ""Lemon Juice"",
+          ""quantity_amount"": 10,
+          ""quantity_unit"": ""ml""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 720,
+        ""protein_g"": 55,
+        ""carbs_g"": 60,
+        ""fat_g"": 30
+      },
+      ""rationale"": ""A nutrient-dense lunch with lean protein, whole grains, and a variety of vegetables."",
+      ""tip"": ""Prepare quinoa in advance to save time.""
+    },
+    {
+      ""label"": ""Evening Snack"",
+      ""name"": ""Hummus with Carrot and Celery Sticks"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Hummus"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Carrot Sticks"",
+          ""quantity_amount"": 50,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Celery Sticks"",
+          ""quantity_amount"": 50,
+          ""quantity_unit"": ""g""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 210,
+        ""protein_g"": 8,
+        ""carbs_g"": 20,
+        ""fat_g"": 12
+      },
+      ""rationale"": ""A healthy snack providing fiber and protein, while keeping fat intake moderate."",
+      ""tip"": ""Use pre-cut vegetables for convenience.""
+    },
+    {
+      ""label"": ""Dinner"",
+      ""name"": ""Baked Salmon with Sweet Potato and Broccoli"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Salmon Fillet"",
+          ""quantity_amount"": 180,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Sweet Potato"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Broccoli"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Olive Oil"",
+          ""quantity_amount"": 10,
+          ""quantity_unit"": ""ml""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 622,
+        ""protein_g"": 62,
+        ""carbs_g"": 56,
+        ""fat_g"": 19
+      },
+      ""rationale"": ""A balanced dinner with omega-3 rich salmon, complex carbohydrates from sweet potato, and fiber-rich broccoli."",
+      ""tip"": ""Bake salmon and sweet potatoes together to save time.""
+    }
+  ]
+}
+```"
+7,69,female,71.4,180.2,Moderately Active,5,diabetes,reverse_metabolic_markers,sports_performance,vegetarian,American,2113.4,158.5,184.92,82.19,['reverse_metabolic_markers'],Breakfast: Greek Yogurt with Berries and Almonds (Greek Yogurt 200 g; Mixed Berries 100 g; Almonds 30 g; Honey 10 g) | Lunch: Quinoa and Black Bean Salad (Quinoa 150 g; Black Beans 100 g; Cherry Tomatoes 100 g; Avocado 70 g; Olive Oil 15 ml; Lime Juice 10 ml; Cilantro 10 g) | Evening Snack: Hummus with Veggie Sticks (Hummus 100 g; Carrot Sticks 50 g; Cucumber Sticks 50 g) | Dinner: Stir-fried Tofu with Broccoli and Brown Rice (Tofu 200 g; Broccoli 150 g; Brown Rice 150 g; Soy Sauce 15 ml; Sesame Oil 10 ml; Garlic 5 g),2112,158,185,82,gpt-4o,11.33,"```json
+{
+  ""totals"": {
+    ""calories"": 2112,
+    ""protein_g"": 158,
+    ""carbs_g"": 185,
+    ""fat_g"": 82,
+    ""sodium_mg"": 1450,
+    ""added_sugar_g"": 18,
+    ""fiber_g"": 30
+  },
+  ""meals"": [
+    {
+      ""label"": ""Breakfast"",
+      ""name"": ""Greek Yogurt with Berries and Almonds"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Greek Yogurt"",
+          ""quantity_amount"": 200,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Mixed Berries"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Almonds"",
+          ""quantity_amount"": 30,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Honey"",
+          ""quantity_amount"": 10,
+          ""quantity_unit"": ""g""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 530,
+        ""protein_g"": 30,
+        ""carbs_g"": 45,
+        ""fat_g"": 20
+      },
+      ""rationale"": ""A balanced breakfast with high protein from Greek yogurt and healthy fats from almonds. Honey provides a touch of sweetness while keeping added sugars low."",
+      ""tip"": ""Use fresh or frozen berries for convenience and cost-effectiveness.""
+    },
+    {
+      ""label"": ""Lunch"",
+      ""name"": ""Quinoa and Black Bean Salad"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Quinoa"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Black Beans"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Cherry Tomatoes"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Avocado"",
+          ""quantity_amount"": 70,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Olive Oil"",
+          ""quantity_amount"": 15,
+          ""quantity_unit"": ""ml""
+        },
+        {
+          ""item"": ""Lime Juice"",
+          ""quantity_amount"": 10,
+          ""quantity_unit"": ""ml""
+        },
+        {
+          ""item"": ""Cilantro"",
+          ""quantity_amount"": 10,
+          ""quantity_unit"": ""g""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 740,
+        ""protein_g"": 30,
+        ""carbs_g"": 90,
+        ""fat_g"": 30
+      },
+      ""rationale"": ""This lunch provides a complete protein source by combining quinoa and black beans, with healthy fats from avocado and olive oil."",
+      ""tip"": ""Prepare quinoa in advance to save time during busy weekdays.""
+    },
+    {
+      ""label"": ""Evening Snack"",
+      ""name"": ""Hummus with Veggie Sticks"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Hummus"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Carrot Sticks"",
+          ""quantity_amount"": 50,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Cucumber Sticks"",
+          ""quantity_amount"": 50,
+          ""quantity_unit"": ""g""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 200,
+        ""protein_g"": 8,
+        ""carbs_g"": 20,
+        ""fat_g"": 10
+      },
+      ""rationale"": ""A light snack that provides fiber and protein, with minimal added sugars and healthy fats from hummus."",
+      ""tip"": ""Use pre-cut veggies for convenience.""
+    },
+    {
+      ""label"": ""Dinner"",
+      ""name"": ""Stir-fried Tofu with Broccoli and Brown Rice"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Tofu"",
+          ""quantity_amount"": 200,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Broccoli"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Brown Rice"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Soy Sauce"",
+          ""quantity_amount"": 15,
+          ""quantity_unit"": ""ml""
+        },
+        {
+          ""item"": ""Sesame Oil"",
+          ""quantity_amount"": 10,
+          ""quantity_unit"": ""ml""
+        },
+        {
+          ""item"": ""Garlic"",
+          ""quantity_amount"": 5,
+          ""quantity_unit"": ""g""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 642,
+        ""protein_g"": 90,
+        ""carbs_g"": 30,
+        ""fat_g"": 22
+      },
+      ""rationale"": ""A protein-rich dinner with tofu, complemented by fiber from brown rice and broccoli, and healthy fats from sesame oil."",
+      ""tip"": ""Marinate tofu in soy sauce and garlic for enhanced flavor.""
+    }
+  ]
+}
+```"
+8,18,female,77.8,177.1,Very Active,2,high cholesterol,longevity,appearance,vegetarian,Chinese; American,2799.83,209.99,314.98,77.77,['longevity'],Breakfast: Greek Yogurt Parfait with Berries and Almonds (Greek Yogurt 300 g; Mixed Berries 150 g; Almonds 30 g; Honey 10 g) | Lunch: Quinoa and Black Bean Salad (Quinoa 200 g; Black Beans 150 g; Cherry Tomatoes 100 g; Avocado 100 g; Lime Juice 20 ml; Olive Oil 15 ml) | Evening Snack: Hummus with Carrot and Cucumber Sticks (Hummus 100 g; Carrot Sticks 100 g; Cucumber Sticks 100 g) | Dinner: Grilled Tofu with Stir-Fried Vegetables (Tofu 200 g; Broccoli 150 g; Bell Peppers 100 g; Soy Sauce 15 ml; Sesame Oil 10 ml),2799,210,315,78,gpt-4o,13.64,"```json
+{
+  ""totals"": {
+    ""calories"": 2799,
+    ""protein_g"": 210,
+    ""carbs_g"": 315,
+    ""fat_g"": 78,
+    ""sodium_mg"": 1450,
+    ""added_sugar_g"": 15,
+    ""fiber_g"": 40
+  },
+  ""meals"": [
+    {
+      ""label"": ""Breakfast"",
+      ""name"": ""Greek Yogurt Parfait with Berries and Almonds"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Greek Yogurt"",
+          ""quantity_amount"": 300,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Mixed Berries"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Almonds"",
+          ""quantity_amount"": 30,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Honey"",
+          ""quantity_amount"": 10,
+          ""quantity_unit"": ""g""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 700,
+        ""protein_g"": 50,
+        ""carbs_g"": 60,
+        ""fat_g"": 25
+      },
+      ""rationale"": ""A high-protein breakfast with healthy fats from almonds and natural sweetness from honey, keeping added sugars low."",
+      ""tip"": ""Use fresh or frozen berries for convenience and cost-effectiveness.""
+    },
+    {
+      ""label"": ""Lunch"",
+      ""name"": ""Quinoa and Black Bean Salad"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Quinoa"",
+          ""quantity_amount"": 200,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Black Beans"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Cherry Tomatoes"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Avocado"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Lime Juice"",
+          ""quantity_amount"": 20,
+          ""quantity_unit"": ""ml""
+        },
+        {
+          ""item"": ""Olive Oil"",
+          ""quantity_amount"": 15,
+          ""quantity_unit"": ""ml""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 980,
+        ""protein_g"": 40,
+        ""carbs_g"": 120,
+        ""fat_g"": 40
+      },
+      ""rationale"": ""A nutrient-dense meal with complete proteins from quinoa and beans, healthy fats from avocado, and a variety of vegetables."",
+      ""tip"": ""Prepare quinoa in bulk to save time for future meals.""
+    },
+    {
+      ""label"": ""Evening Snack"",
+      ""name"": ""Hummus with Carrot and Cucumber Sticks"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Hummus"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Carrot Sticks"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Cucumber Sticks"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 300,
+        ""protein_g"": 10,
+        ""carbs_g"": 30,
+        ""fat_g"": 15
+      },
+      ""rationale"": ""A light snack providing fiber and healthy fats, keeping you satiated until dinner."",
+      ""tip"": ""Make hummus at home for a fresher taste and control over ingredients.""
+    },
+    {
+      ""label"": ""Dinner"",
+      ""name"": ""Grilled Tofu with Stir-Fried Vegetables"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Tofu"",
+          ""quantity_amount"": 200,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Broccoli"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Bell Peppers"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Soy Sauce"",
+          ""quantity_amount"": 15,
+          ""quantity_unit"": ""ml""
+        },
+        {
+          ""item"": ""Sesame Oil"",
+          ""quantity_amount"": 10,
+          ""quantity_unit"": ""ml""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 819,
+        ""protein_g"": 110,
+        ""carbs_g"": 105,
+        ""fat_g"": 30
+      },
+      ""rationale"": ""A protein-rich dinner with a variety of colorful vegetables, providing essential nutrients and fiber."",
+      ""tip"": ""Marinate tofu in soy sauce and sesame oil for enhanced flavor.""
+    }
+  ]
+}
+```"
+9,24,male,69.6,184.6,Sedentary,0,hypertension,longevity,energy,none,Japanese; Mediterranean; Indian,2042.81,153.21,229.82,56.74,['longevity'],Breakfast: Greek Yogurt with Berries and Almonds (Greek Yogurt 200 g; Mixed Berries 100 g; Almonds 30 g; Honey 10 g) | Lunch: Grilled Chicken Salad with Quinoa (Grilled Chicken Breast 150 g; Quinoa 100 g; Mixed Greens 100 g; Cherry Tomatoes 50 g; Olive Oil 15 ml; Lemon Juice 10 ml) | Evening Snack: Hummus with Carrot Sticks (Hummus 100 g; Carrot Sticks 100 g) | Dinner: Baked Salmon with Sweet Potato and Broccoli (Salmon Fillet 150 g; Sweet Potato 200 g; Broccoli 150 g; Olive Oil 10 ml),2042,153,230,57,gpt-4o,10.03,"```json
+{
+  ""totals"": {
+    ""calories"": 2042,
+    ""protein_g"": 153,
+    ""carbs_g"": 230,
+    ""fat_g"": 57,
+    ""sodium_mg"": 1450,
+    ""added_sugar_g"": 15,
+    ""fiber_g"": 29
+  },
+  ""meals"": [
+    {
+      ""label"": ""Breakfast"",
+      ""name"": ""Greek Yogurt with Berries and Almonds"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Greek Yogurt"",
+          ""quantity_amount"": 200,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Mixed Berries"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Almonds"",
+          ""quantity_amount"": 30,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Honey"",
+          ""quantity_amount"": 10,
+          ""quantity_unit"": ""g""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 510,
+        ""protein_g"": 30,
+        ""carbs_g"": 45,
+        ""fat_g"": 20
+      },
+      ""rationale"": ""A balanced breakfast with protein from yogurt, healthy fats from almonds, and natural sugars from berries and honey."",
+      ""tip"": ""Use unsweetened Greek yogurt to control sugar intake.""
+    },
+    {
+      ""label"": ""Lunch"",
+      ""name"": ""Grilled Chicken Salad with Quinoa"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Grilled Chicken Breast"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Quinoa"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Mixed Greens"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Cherry Tomatoes"",
+          ""quantity_amount"": 50,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Olive Oil"",
+          ""quantity_amount"": 15,
+          ""quantity_unit"": ""ml""
+        },
+        {
+          ""item"": ""Lemon Juice"",
+          ""quantity_amount"": 10,
+          ""quantity_unit"": ""ml""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 715,
+        ""protein_g"": 55,
+        ""carbs_g"": 75,
+        ""fat_g"": 25
+      },
+      ""rationale"": ""A nutrient-dense lunch with lean protein, whole grains, and a variety of vegetables."",
+      ""tip"": ""Prepare quinoa in advance to save time.""
+    },
+    {
+      ""label"": ""Evening Snack"",
+      ""name"": ""Hummus with Carrot Sticks"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Hummus"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Carrot Sticks"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 200,
+        ""protein_g"": 7,
+        ""carbs_g"": 25,
+        ""fat_g"": 9
+      },
+      ""rationale"": ""A simple snack providing fiber and protein, with healthy fats from hummus."",
+      ""tip"": ""Choose a low-sodium hummus to reduce sodium intake.""
+    },
+    {
+      ""label"": ""Dinner"",
+      ""name"": ""Baked Salmon with Sweet Potato and Broccoli"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Salmon Fillet"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Sweet Potato"",
+          ""quantity_amount"": 200,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Broccoli"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Olive Oil"",
+          ""quantity_amount"": 10,
+          ""quantity_unit"": ""ml""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 617,
+        ""protein_g"": 61,
+        ""carbs_g"": 85,
+        ""fat_g"": 23
+      },
+      ""rationale"": ""A balanced dinner with omega-3-rich salmon, complex carbohydrates from sweet potato, and fiber-rich broccoli."",
+      ""tip"": ""Roast sweet potatoes and broccoli together for convenience.""
+    }
+  ]
+}
+```"
+10,34,male,100.7,154.6,Sedentary,5,none,reverse_metabolic_markers,health,none,Mexican; Thai; Mediterranean,2242.34,168.18,252.26,62.29,['reverse_metabolic_markers'],Breakfast: Oatmeal with Berries and Almonds (Rolled Oats 80 g; Almond Milk 250 ml; Blueberries 100 g; Almonds 20 g; Honey 10 g) | Lunch: Grilled Chicken Salad (Chicken Breast 150 g; Mixed Greens 100 g; Cherry Tomatoes 100 g; Cucumber 50 g; Olive Oil 15 ml; Balsamic Vinegar 10 ml) | Evening Snack: Greek Yogurt with Honey and Walnuts (Greek Yogurt 200 g; Honey 15 g; Walnuts 20 g) | Dinner: Quinoa and Black Bean Stir-fry (Quinoa 100 g; Black Beans 150 g; Red Bell Pepper 100 g; Onion 50 g; Olive Oil 10 ml; Lime Juice 10 ml),2241,168,252,62,gpt-4o,10.44,"```json
+{
+  ""totals"": {
+    ""calories"": 2241,
+    ""protein_g"": 168,
+    ""carbs_g"": 252,
+    ""fat_g"": 62,
+    ""sodium_mg"": 1450,
+    ""added_sugar_g"": 20,
+    ""fiber_g"": 32
+  },
+  ""meals"": [
+    {
+      ""label"": ""Breakfast"",
+      ""name"": ""Oatmeal with Berries and Almonds"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Rolled Oats"",
+          ""quantity_amount"": 80,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Almond Milk"",
+          ""quantity_amount"": 250,
+          ""quantity_unit"": ""ml""
+        },
+        {
+          ""item"": ""Blueberries"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Almonds"",
+          ""quantity_amount"": 20,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Honey"",
+          ""quantity_amount"": 10,
+          ""quantity_unit"": ""g""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 560,
+        ""protein_g"": 18,
+        ""carbs_g"": 80,
+        ""fat_g"": 18
+      },
+      ""rationale"": ""A balanced breakfast with whole grains, fruits, and healthy fats to start the day."",
+      ""tip"": ""Use fresh or frozen blueberries for convenience.""
+    },
+    {
+      ""label"": ""Lunch"",
+      ""name"": ""Grilled Chicken Salad"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Chicken Breast"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Mixed Greens"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Cherry Tomatoes"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Cucumber"",
+          ""quantity_amount"": 50,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Olive Oil"",
+          ""quantity_amount"": 15,
+          ""quantity_unit"": ""ml""
+        },
+        {
+          ""item"": ""Balsamic Vinegar"",
+          ""quantity_amount"": 10,
+          ""quantity_unit"": ""ml""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 780,
+        ""protein_g"": 65,
+        ""carbs_g"": 40,
+        ""fat_g"": 40
+      },
+      ""rationale"": ""A high-protein meal with plenty of vegetables and healthy fats."",
+      ""tip"": ""Grill the chicken with herbs for extra flavor.""
+    },
+    {
+      ""label"": ""Evening Snack"",
+      ""name"": ""Greek Yogurt with Honey and Walnuts"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Greek Yogurt"",
+          ""quantity_amount"": 200,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Honey"",
+          ""quantity_amount"": 15,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Walnuts"",
+          ""quantity_amount"": 20,
+          ""quantity_unit"": ""g""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 300,
+        ""protein_g"": 20,
+        ""carbs_g"": 30,
+        ""fat_g"": 15
+      },
+      ""rationale"": ""A protein-rich snack with healthy fats and a touch of sweetness."",
+      ""tip"": ""Opt for plain Greek yogurt to control added sugars.""
+    },
+    {
+      ""label"": ""Dinner"",
+      ""name"": ""Quinoa and Black Bean Stir-fry"",
+      ""based_on"": null,
+      ""ingredients"": [
+        {
+          ""item"": ""Quinoa"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Black Beans"",
+          ""quantity_amount"": 150,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Red Bell Pepper"",
+          ""quantity_amount"": 100,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Onion"",
+          ""quantity_amount"": 50,
+          ""quantity_unit"": ""g""
+        },
+        {
+          ""item"": ""Olive Oil"",
+          ""quantity_amount"": 10,
+          ""quantity_unit"": ""ml""
+        },
+        {
+          ""item"": ""Lime Juice"",
+          ""quantity_amount"": 10,
+          ""quantity_unit"": ""ml""
+        }
+      ],
+      ""macros"": {
+        ""calories"": 601,
+        ""protein_g"": 65,
+        ""carbs_g"": 102,
+        ""fat_g"": 20
+      },
+      ""rationale"": ""A nutrient-dense meal with plant-based protein and fiber."",
+      ""tip"": ""Add some fresh cilantro for an extra burst of flavor.""
+    }
+  ]
+}
+```"
